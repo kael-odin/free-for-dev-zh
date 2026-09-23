@@ -6850,6 +6850,111 @@
    "kind": "text",
    "zh": "免费 DNS 托管",
    "access": null
+  },
+  "1fce6583b3eec857": {
+   "kind": "entry",
+   "zh": "通过简单 API 或 Zapier、Make 等自动化工具，从 JSON 生成 PDF 和图片的 API。免费计划每月包含 100 次 PDF 转换。",
+   "access": "unknown"
+  },
+  "c55c4075840904ad": {
+   "kind": "entry",
+   "zh": "输入内容不完整，仅包含链接片段 urces.htm#compute__idleinstances)，无法确定对应的服务与描述。",
+   "access": "unknown"
+  },
+  "5d70c30d4aedc436": {
+   "kind": "entry",
+   "zh": "管理 SSL 证书的签发、续期与监控。可搜索 Certificate Transparency（证书透明度）日志。Beta 结束后免费提供 3 张证书和 1 个用户。",
+   "access": "unknown"
+  },
+  "b5237b8ae0628eac": {
+   "kind": "entry",
+   "zh": "免费的用户管理与身份验证服务，最多支持 1 Million MAUs。支持邮箱 + 密码、社交登录、Magic Auth、MFA 等。",
+   "access": "direct"
+  },
+  "84720d2a7ab08bf4": {
+   "kind": "entry",
+   "zh": "无缝集成 SSO、MFA、无密码认证等功能。提供面向前端和后端应用的 SDK。免费额度最多支持 1000 MAU 和 5 个身份提供商。",
+   "access": "partial"
+  },
+  "ae3d26f759ca66aa": {
+   "kind": "entry",
+   "zh": "Uptime Monitoring 免费，额度最高 100,000 个事件，支持不限数量的项目和不限数量的状态页。",
+   "access": "direct"
+  },
+  "1c733e927ac4d5b1": {
+   "kind": "entry",
+   "zh": "获取 20 个 uptime 监控项，检查间隔 5 分钟，并附带可自定义的状态页——即使用于商业用途。可通过 email 和 Telegram 接收无限制的实时通知。开始使用无需信用卡。",
+   "access": "direct"
+  },
+  "30d7aaa58f13960e": {
+   "kind": "entry",
+   "zh": "为 cron 任务提供 Heartbeat（心跳）监控，另含 HTTP 在线状态与 TLS 证书到期检查，并提供一个可根据你的 scheduler 自动创建检查项的 Laravel 包。免费额度：10 个检查项，HTTP 检查间隔最短 5 分钟，30 天历史记录，每月 50k 次 ping。",
+   "access": "direct"
+  },
+  "1059c5053e489881": {
+   "kind": "entry",
+   "zh": "提供正常运行时间（Uptime）、内容、依赖项与 SSL 监控，支持多地区验证和状态页。免费套餐包含 15 个监控项、5 分钟检查间隔和 90 天历史记录。",
+   "access": "direct"
+  },
+  "fa643adb5ab6164d": {
+   "kind": "entry",
+   "zh": "每月 1TB 出口流量、10M 次 HTTP 请求及 2M 次 Function 调用",
+   "access": "direct"
+  },
+  "83534b0ae2544989": {
+   "kind": "entry",
+   "zh": "Email API、SMTP 服务，事务性邮件每月 500 封免费额度，每天 100 次 API 请求",
+   "access": "direct"
+  },
+  "d9f207a692a9529f": {
+   "kind": "entry",
+   "zh": "每月最高 5 TB 免费 CDN 流量，19 个核心 PoP 节点，支持 1 个域名并提供 Universal SSL。",
+   "access": "direct"
+  },
+  "0f7ec303515d96de": {
+   "kind": "entry",
+   "zh": "Uptime 监控免费 20 个，Linux 和 Windows Server 监控免费 5 个，Status page 免费 1 个——另提供移动应用、多种通知渠道等更多功能！",
+   "access": "direct"
+  },
+  "d15c1d6e62655668": {
+   "kind": "entry",
+   "zh": "事务性与群发邮件 API。每月免费 3,000 封，之后低至每 1k 8¢。",
+   "access": "partial"
+  },
+  "051c856fea1364c7": {
+   "kind": "entry",
+   "zh": "专为 AI agent 打造的 Headless 后端与服务，涵盖托管、数据库、存储、LLM 及第三方 API。支持 agent 注册。免费额度包含 10 个项目、100K 次边缘请求、10 GB 对象存储、100 封邮件，以及每月 5 USD 的 AI 与搜索额度。",
+   "access": "partial"
+  },
+  "6226101cc5f43e0b": {
+   "kind": "entry",
+   "zh": "提供 GitHub CI/CD、SSH 及 MariaDB/Postgres 数据库的 Linux 托管服务。免费版提供 1 GB 存储空间和每月 1 GB 流量限额，且仅限使用免费域名。",
+   "access": "direct"
+  },
+  "d19d587cde1f6d38": {
+   "kind": "entry",
+   "zh": "构建、部署并托管静态站点/应用，每月免费 300 credits（相当于 30 GB 流量）。",
+   "access": "partial"
+  },
+  "3e97ae7a804e164e": {
+   "kind": "entry",
+   "zh": "免费托管一个项目，容器 TTL 为两周，每个项目 500 MB 内存，SFTP 提供 1G 磁盘空间。",
+   "access": "direct"
+  },
+  "60c9b4127b26046c": {
+   "kind": "entry",
+   "zh": "零知识加密文件共享。AES-256-GCM 浏览器端加密，确保文件在上传前已在浏览器内完成加密。发送方与接收方均无需注册账号。支持自托管（MIT 开源）。免费额度为不限上传次数、不限文件大小。",
+   "access": "unknown"
+  },
+  "91203ffa47a7bd66": {
+   "kind": "entry",
+   "zh": "零知识端到端加密（E2EE）文件共享服务，采用客户端 AES-256-GCM 加密，服务器端完全不接触数据。通过网站、CLI 或 API 免费上传最大 5GB 的文件，最长有效期 3 天。",
+   "access": "unknown"
+  },
+  "1a3d8097f8767c5b": {
+   "kind": "entry",
+   "zh": "每个站点：1,000 次页面浏览/天，3 个热力图，3 个小组件，免费 bug 跟踪",
+   "access": "direct"
   }
  }
 }

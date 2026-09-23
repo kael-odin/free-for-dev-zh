@@ -29,7 +29,9 @@ call node scripts/sync.mjs >> "%LOG%" 2>&1
 if errorlevel 1 (echo [ERR] upstream fetch failed >> "%LOG%" & exit /b 1)
 
 echo [2/4] translate delta >> "%LOG%"
-call node scripts/translate.mjs --concurrency=6 >> "%LOG%" 2>&1
+rem  Single-item mode: relay batches can hang under congestion; singles
+rem  always get through and nightly deltas are only a few items anyway.
+call node scripts/translate.mjs --concurrency=4 --entryBatch=1 --textBatch=1 >> "%LOG%" 2>&1
 if errorlevel 1 echo [WARN] translate had failures, build continues with English passthrough >> "%LOG%"
 
 echo [3/4] build outputs >> "%LOG%"

@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **署名与免责声明**：本清单翻译自 [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)（[free-for.dev](https://free-for.dev/)）。原始清单由原作者与 1600+ 贡献者编纂维护，版权归原作者所有；原仓库未声明开源许可证，本项目仅为便于中文读者查阅的非商业翻译镜像，如版权方有异议将按要求处理。本站与所列服务无任何关联，免费档信息以各官方页面为准，随时可能变动。
 
-**上游同步**：2026-09-23T18:53:54.762Z · 上游版本 `unknown` · 每日自动同步
+**上游同步**：2026-09-23T20:34:44.347Z · 上游版本 `unknown` · 每日自动同步
 
 **「大陆可用性」标注**由 AI 辅助生成，仅供参考，欢迎提 PR 修正（编辑 `data/overrides.json`）：
 
@@ -110,7 +110,7 @@
     - 完整详细列表 - https://cloud.google.com/free
 
   * [Amazon Web Services](https://aws.amazon.com) 🟡
-    * [CloudFront](https://aws.amazon.com/cloudfront/) - 1TB egress/month, 10M HTTP requests, and 2M Function invocations/month ❓
+    * [CloudFront](https://aws.amazon.com/cloudfront/) - 每月 1TB 出口流量、10M 次 HTTP 请求及 2M 次 Function 调用 ✅
     * [CloudWatch](https://aws.amazon.com/cloudwatch/) - 10 个自定义指标和告警，1M 次 API 请求，5GB 日志数据摄取量和 5GB 日志数据归档量 ❓
     * [CodeBuild](https://aws.amazon.com/codebuild/) - 每月 100 分钟构建时间 ❓
     * [CodeCommit](https://aws.amazon.com/codecommit/) - 5 个活跃用户，每账户 5k 个仓库，每月 50GB 存储空间和 10K 次请求 ❓
@@ -148,7 +148,7 @@
     - 计算
        - 2 台基于 AMD 的 Compute 虚拟机，每台配备 1/8 OCPU 和 1 GB 内存
        - 2 个基于 Arm 的 Ampere A1 核心和 12 GB 内存，可用作 1 台虚拟机或最多拆分为 2 台虚拟机
-       * [deemed idle](https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm#compute__idleinstances) - urces.htm#compute__idleinstances) ❓
+       * [deemed idle](https://docs.oracle.com/en-us/iaas/Content/FreeTier/freetier_topic-Always_Free_Resources.htm#compute__idleinstances) - 输入内容不完整，仅包含链接片段 urces.htm#compute__idleinstances)，无法确定对应的服务与描述。 ❓
     - 块存储卷 - 2 个卷，总计 200 GB（用于计算）
     - 对象存储 - 10 GB
     - 负载均衡器 - 1 个实例，带宽 10 Mbps
@@ -286,7 +286,7 @@
   * [Financial Data](https://financialdata.net/) - 股票市场与金融数据 API。免费计划每天允许 300 次请求。 ✅
   * [finlight](https://finlight.me) - 实时金融新闻 API，支持实体解析（tickers、ISIN）与情感标注，可通过 REST、WebSocket、webhook 和 MCP server 访问。免费层：REST 与 MCP 每月 5,000 次请求，文章延迟 12 小时，无需信用卡。 ✅
   * [Firecrawl](https://www.firecrawl.dev/) - 抓取网站并将其转换为干净、适合 LLM 使用的 markdown 或结构化数据的 API，可处理 JavaScript 渲染、代理和速率限制。免费套餐每月包含 1,000 credits，无需信用卡。 ✅
-  * [Formfeed](https://formfeed.dev) - API for PDF and image generation from JSON with a simple API or automation tools like Zapier & Make. The free plan includes 100 free PDF conversions per month. ❓
+  * [Formfeed](https://formfeed.dev) - 通过简单 API 或 Zapier、Make 等自动化工具，从 JSON 生成 PDF 和图片的 API。免费计划每月包含 100 次 PDF 转换。 ❓
   * [FraudLabs Pro](https://www.fraudlabspro.com) - 筛查订单交易中的信用卡支付欺诈。该 REST API 会根据订单的输入参数检测所有可能的欺诈特征。免费的 Micro 套餐每月 500 笔交易。 ✅
   * [FreeIPAPI](https://freeipapi.com) - 面向商业与非商业用户的免费、快速、可靠的 IP 地理位置定位 API，以 JSON 格式提供。 ✅
   * [Geolocated.io](https://geolocated.io) - 在多洲部署服务器的 IP 地理位置定位 API，免费套餐每天 2,000 次请求。 ✅
@@ -620,7 +620,7 @@
 ## 安全与 PKI
 
   * [aikido.dev](https://www.aikido.dev) - 一体化应用安全（AppSec）平台，涵盖 SCA、SAST、CSPM、DAST、Secrets、IaC、恶意软件检测、容器扫描、EOL 等。免费计划包含 2 个用户、10 个仓库、1 个云、2 个容器与 1 个域名的扫描。 ❓
-  * [CertKit](https://www.certkit.io/certificate-management) - Manage SSL Certificate issuance, renewal, and monitoring. Search the Certificate Transparency Logs. Free for 3 certificates and 1 user after the beta. ❓
+  * [CertKit](https://www.certkit.io/certificate-management) - 管理 SSL 证书的签发、续期与监控。可搜索 Certificate Transparency（证书透明度）日志。Beta 结束后免费提供 3 张证书和 1 个用户。 ❓
   * [CertObserver CT Search](https://certobserver.com/ct-search) - 查找记录在 Certificate Transparency 日志中的公开 SSL/TLS 证书。CT 搜索免费，但 CT 监控为付费功能。 ✅
   * [CertPost](https://www.certpost.ai) - 对 443 端口或自定义端口（SMTP/IMAP）上的 SSL/TLS 证书进行实时监控。直接读取线上返回的证书，进行完整证书链校验，并在证书到期前通过 email 或 webhook 发出告警。免费版可永久监控 3 张证书。 ✅
   * [Corgea](https://corgea.com/) - 免费的自主安全平台，可在 20 多种语言和框架中查找、验证并修复不安全的代码和依赖包。免费计划包含 1 个用户和 2 个仓库。 ✅
@@ -666,7 +666,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
 
   * [360username](https://360username.com/) - 免费工具，可在 90+ 个社交平台上搜索某个用户名，找出匹配的个人资料。 🟡
   * [Aserto](https://www.aserto.com) - 面向应用和 API 的细粒度授权即服务。免费额度最高支持 1000 MAUs（月活用户）和 100 个 authorizer 实例。 ❓
-  * [asgardeo.io](https://wso2.com/asgardeo) - Seamless Integration of SSO, MFA, passwordless auth and more. Includes SDKs for frontend and backend apps. Free up to 1000 MAUs and five identity providers. ❓
+  * [asgardeo.io](https://wso2.com/asgardeo) - 无缝集成 SSO、MFA、无密码认证等功能。提供面向前端和后端应用的 SDK。免费额度最多支持 1000 MAU 和 5 个身份提供商。 🟡
   * [Auth0](https://auth0.com/) - 托管式 SSO 服务。免费计划包含 25,000 MAU、不限量的 Social Connections、自定义域名等。 ✅
   * [Authgear](https://www.authgear.com) - 几分钟内即可为应用接入 Passwordless、OTP、2FA、SSO，前端组件全部内置。免费额度最高 5000 MAU。 ❓
   * [Authress](https://authress.io/) - 为任何项目提供认证登录与访问控制，可接入不限数量的身份提供方（Identity Provider），如 Facebook、Google、Twitter 等。前 1000 次 API 调用免费。 ✅
@@ -690,7 +690,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [Stytch](https://www.stytch.com/) - 一站式平台，提供用于身份认证与欺诈防护的 API 和 SDK。免费计划包含 10,000 个月活跃用户、不限数量的组织、5 个 SSO 或 SCIM 连接，以及 1,000 个 M2M token。 🟡
   * [SuperTokens](https://supertokens.com/) - 开源用户身份认证服务，可原生集成到你的应用中——助你快速上手，同时掌控用户与开发者体验。最多 5000 MAUs 免费。 ✅
   * [Unkey](https://www.unkey.com/) - 开源的 API key 管理与限流平台。每月 100,000 次请求及 100 个活跃 API key 以内免费，可完整使用 key 创建、吊销与限流等全部功能。 ❓
-  * [WorkOS](https://workos.com/) - Free user management and authentication for up to 1 Million MAUs. Support email + password, social auth, Magic Auth, MFA, and more. ❓
+  * [WorkOS](https://workos.com/) - 免费的用户管理与身份验证服务，最多支持 1 Million MAUs。支持邮箱 + 密码、社交登录、Magic Auth、MFA 等。 ✅
   * [ZITADEL Cloud](https://zitadel.com) - 开箱即用的用户与访问管理服务，为你托管运维，支持多租户（B2B）场景。最多 25,000 次认证请求免费，且包含全部安全功能（OTP、Passwordless、Policies 等均不设付费墙）。 ✅
 
 
@@ -794,7 +794,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [bleemeo.com](https://bleemeo.com) - 免费版支持 3 台服务器、5 个 uptime 监控项，用户数、仪表盘数量与告警规则均不设上限。 ✅
   * [checklyhq.com](https://checklyhq.com) - 面向开发者的开源 E2E / 拨测（Synthetic monitoring）与深度 API 监控服务。免费版包含 1 个用户，以及 10k 次 API 与网络检查 / 1.5k 次浏览器检查运行额度。 🟡
   * [Core Web Vitals History](https://punits.dev/core-web-vitals-historical/) - 查询某个 URL 或网站的 Core Web Vitals 历史数据。 ❓
-  * [cronalive.com](https://cronalive.com) - Heartbeat monitoring for cron jobs, plus HTTP uptime and TLS expiry checks, and a Laravel package that creates checks from your scheduler. Free tier with 10 checks, HTTP interval from 5 min, 30 days of history, 50k pings/mo. ❓
+  * [cronalive.com](https://cronalive.com) - 为 cron 任务提供 Heartbeat（心跳）监控，另含 HTTP 在线状态与 TLS 证书到期检查，并提供一个可根据你的 scheduler 自动创建检查项的 Laravel 包。免费额度：10 个检查项，HTTP 检查间隔最短 5 分钟，30 天历史记录，每月 50k 次 ping。 ✅
   * [cronitor.io](https://cronitor.io/) - 为 cron 任务、网站、API 等提供性能洞察与 uptime 监控。免费版包含 5 个监控项。 ✅
   * [watchcron.com](https://watchcron.com) - Cron 任务监控，通过心跳 ping 检测并支持告警。免费版最多可创建 5 个监控项，并提供邮件通知。 ✅
   * [datadoghq.com](https://www.datadoghq.com/) - 最多 5 个节点免费 ❓
@@ -804,7 +804,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [drumbeats.io](https://drumbeats.io/) - 提供 Cron 定时任务、心跳（heartbeat）与在线率（uptime）监控，附带事件管理和状态页功能。免费额度为最多 50 个监控项，检测间隔 1 分钟，团队成员席位不限。 ✅
   * [economize.cloud](https://economize.cloud) - Economize 通过整理云资源，帮助用户理清云基础设施成本，从而进行优化并生成报告。每月在 Google Cloud Platform 上消费不超过 $5,000 的部分可免费使用。 🟡
   * [fivenines.io](https://fivenines.io/) - Linux 服务器监控服务，提供实时仪表盘与告警功能——最多可永久免费监控 5 台服务器，数据采集间隔 60 秒。无需绑定信用卡。 ❓
-  * [FlareWarden](https://flarewarden.com) - Uptime, content, dependency, and SSL monitoring with multi-region verification and status pages. Free plan includes 15 monitors, 5-minute checks, and 90 days of history. ❓
+  * [FlareWarden](https://flarewarden.com) - 提供正常运行时间（Uptime）、内容、依赖项与 SSL 监控，支持多地区验证和状态页。免费套餐包含 15 个监控项、5 分钟检查间隔和 90 天历史记录。 ✅
   * [Grafana Cloud](https://grafana.com/products/cloud/) - Grafana Cloud 是一个可组合的可观测性平台，将指标与日志同 Grafana 集成。免费额度：3 个用户、10 个仪表盘、100 条告警，指标存储使用 Prometheus 和 Graphite（10,000 条时间序列，保留 14 天），日志存储使用 Loki（50 GB 日志，保留 14 天） 🟡
   * [healthchecks.io](https://healthchecks.io) - 监控你的 cron 任务和后台任务。最多 20 个检查项免费。 ✅
   * [incidenthub.cloud](https://incidenthub.cloud/) - 云与 SaaS 状态页聚合服务 — 20 个监控项和 2 个通知渠道（Slack 和 Discord）永久免费。 ✅
@@ -823,7 +823,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [OntarioNet.ca CN Test](https://cntest.ontarionet.ca) - 检测网站是否被中国的防火长城（Great Firewall）屏蔽。通过对比中国服务器与美国服务器所检测到的 DNS 解析结果和 ASN 信息，识别 DNS 污染。 🔴
   * [pagecrawl.io](https://pagecrawl.io/) - 监控网站变化，最多可免费创建 6 个监控项，每日检查一次。 ❓
   * [pagertree.com](https://pagertree.com/) - 界面简洁的告警与值班（on-call）管理工具。免费版最多支持 5 名用户。 ✅
-  * [phare.io](https://phare.io/) - Uptime Monitoring free for up to 100,000 events for unlimited projects and unlimited status pages. ❓
+  * [phare.io](https://phare.io/) - Uptime Monitoring 免费，额度最高 100,000 个事件，支持不限数量的项目和不限数量的状态页。 ✅
   * [pingbreak.com](https://pingbreak.com/) - 现代化的 uptime 监控服务。可检测不限数量的 URL，并通过 Discord、Slack 或电子邮件接收宕机通知。 ✅
   * [Pingmeter.com](https://pingmeter.com/) - 提供 5 个可用性（uptime）监控项，检查间隔为 10 分钟。可监控 SSH、HTTP、HTTPS 及任意自定义 TCP 端口。 ✅
   * [pingpong.one](https://pingpong.one/) - 高级状态页平台，附带监控功能。免费版包含 1 个可自定义的公开状态页，并提供 SSL 子域名。开源项目和非营利组织可免费获得 Pro 计划。 ✅
@@ -841,11 +841,11 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [superlog.sh](https://superlog.sh/) - 开源的 OpenTelemetry 可观测性平台（涵盖 traces、logs、metrics），并支持 AI agent 事故调查。免费额度为每月 1M spans、5M logs、10M metric points，数据保留 30 天，无需信用卡。完全开源，可自行托管。 🟡
   * [SweetUptime](https://dicloud.net/sweetuptime-server-uptime-monitoring/) - 服务器监控、uptime 监控、DNS 与域名监控。免费额度可监控 10 台服务器、10 个 uptime 监控项和 10 个域名。 ❓
   * [syagent.com](https://syagent.com/) - 非商业免费服务器监控服务，提供告警与指标。 ❓
-  * [UptimeObserver.com](https://uptimeobserver.com) - Get 20 uptime monitors with 5-minute intervals and a customizable status page-even for commercial use. Enjoy unlimited, real-time notifications via email and Telegram. No credit card needed to get started. ❓
+  * [UptimeObserver.com](https://uptimeobserver.com) - 获取 20 个 uptime 监控项，检查间隔 5 分钟，并附带可自定义的状态页——即使用于商业用途。可通过 email 和 Telegram 接收无限制的实时通知。开始使用无需信用卡。 ✅
   * [uptimetoolbox.com](https://uptimetoolbox.com/) - 免费监控 5 个网站，检查间隔 3 分钟，提供公开状态页。 ✅
   * [Wachete](https://www.wachete.com) - 监控 5 个页面，每 24 小时检查一次。 ✅
   * [Watchgoose](https://watchgoose.com) - 面向定时任务、备份与后台作业的 Cron 任务与心跳（heartbeat）监控及状态页，支持 MCP server。免费额度：10 个检查项、200 条 ping 日志记录，提供邮件/聊天/webhook 告警，无需信用卡。符合条件的开源（OS）项目可申请 Open Source 支持计划。 ✅
-  * [Xitoring.com](https://xitoring.com/) - Uptime monitoring: 20 free, Linux and Windows Server monitoring: 5 free, Status page: 1 free - Mobile app, multiple notification channel, and much more! ❓
+  * [Xitoring.com](https://xitoring.com/) - Uptime 监控免费 20 个，Linux 和 Windows Server 监控免费 5 个，Status page 免费 1 个——另提供移动应用、多种通知渠道等更多功能！ ✅
   * [UptimeRobot](https://uptimerobot.com/) - 面向个人爱好项目的免费 uptime 监控服务。包含 50 个监控项，检查间隔为 5 分钟，支持 HTTP、ping、端口及关键词监控。 ✅
 
 **[⬆️ 返回顶部](#table-of-contents)**
@@ -917,7 +917,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [AnonAddy](https://anonaddy.com) - 开源的匿名邮件转发服务，可免费创建无限个邮件别名 ❓
   * [anon.li Alias](https://anon.li/alias) - 开源的匿名电子邮件别名/转发解决方案，支持 PGP 加密与回复功能，免费套餐提供 10 个随机别名和 1 个自定义别名，并附带开发者 API 与 CLI。 ✅
   * [Antideo](https://www.antideo.com) - 免费套餐提供每小时 10 次 API 请求，可用于邮箱验证、IP 及电话号码校验。无需信用卡。 ✅
-  * [Anypost](https://anypost.com) - transactional and broadcast email API. 3,000 emails/month free, then as low as 8¢ per 1k ❓
+  * [Anypost](https://anypost.com) - 事务性与群发邮件 API。每月免费 3,000 封，之后低至每 1k 8¢。 🟡
   * [Atomic Mail](https://atomicmail.ai) - 专为 AI agent 打造的电子邮件服务，完全免费。支持以编程方式创建收件箱、使用自定义域名，并通过开放的 JMAP 标准（RFC 8620/8621）完整收发邮件；提供托管 MCP server。这是真实的邮箱服务，并非一次性/临时邮箱。 ❓
   * [Brevo](https://www.brevo.com/) - 免费额度为每月 9,000 封邮件、每天 300 封。 ✅
   * [Bump](https://bump.email/) - 免费 10 个 Bump email 地址，一个自定义域名 ❓
@@ -952,7 +952,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [Mailcheck.ai](https://www.mailcheck.ai/) - 防止用户使用临时邮箱注册，120 次请求/小时（约合每月 86,400 次） ❓
   * [Maildroppa](https://maildroppa.com) - 免费额度：最多 100 位订阅者，邮件发送量不限，并包含自动化功能。 ✅
   * [MailerLite.com](https://www.mailerlite.com) - 免费额度为每月 1,000 名订阅者、每月 12,000 封邮件。 ✅
-  * [MailerSend.com](https://www.mailersend.com) - Email API, SMTP, 500 emails/month free for transactional emails, 100 API requests/day ❓
+  * [MailerSend.com](https://www.mailersend.com) - Email API、SMTP 服务，事务性邮件每月 500 封免费额度，每天 100 次 API 请求 ✅
   * [mailinator.com](https://www.mailinator.com/) - 免费的公共邮件系统，可使用任意收件箱 ✅
   * [Mailjet](https://www.mailjet.com/) - 每月免费 6,000 封邮件（每日发送上限 200 封） ✅
   * [mailsac.com](https://mailsac.com) - 提供免费的临时邮箱测试 API、免费公共邮箱托管、外发邮件捕获（outbound capture），以及邮件转发到 slack/websocket/webhook（每月 API 调用上限 1,500 次） ✅
@@ -1092,7 +1092,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
 ## CDN 与防护
 
   * [bootstrapcdn.com](https://www.bootstrapcdn.com/) - 为 Bootstrap、Bootswatch 和 fontawesome.io 提供的公共 CDN ✅
-  * [CacheFly](https://portal.cachefly.com/signup/free2023) - Up to 5 TB per month of Free CDN traffic, 19 Core PoPs , 1 Domain and Universal SSL. ❓
+  * [CacheFly](https://portal.cachefly.com/signup/free2023) - 每月最高 5 TB 免费 CDN 流量，19 个核心 PoP 节点，支持 1 个域名并提供 Universal SSL。 ✅
   * [cdnjs.com](https://cdnjs.com/) - 简单、快速、可靠，卓越的内容分发服务。cdnjs 是一个免费开源的 CDN 服务，由 Cloudflare 提供支持，被超过 11% 的网站所信赖。 ✅
   * [developers.google.com](https://developers.google.com/speed/libraries/) - Google Hosted Libraries 是一个内容分发网络（CDN），托管最流行的开源 JavaScript 库 🔴
   * [Gcore](https://gcorelabs.com/) - 全球内容分发网络（CDN），每月免费 1 TB 流量和 100 万次请求 ✅
@@ -1122,11 +1122,11 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [Clever Cloud](https://clever.cloud) - 来自欧洲的 PaaS，提供自动化部署、自动扩缩容、托管数据库和基于 Git 的工作流。注册赠送 €20 免费额度，含一个功能受限的 DEV 计划（免费 MySQL 和 PostgreSQL 数据库），以及 Heptapod 和 FS Buckets 等服务的免费额度。 ✅
   * [Choreo](https://wso2.com/choreo/) - AI 原生的内部开发者平台即服务。免费层包含最多 5 个组件，以及每月 $100 的额度。 ❓
   * [codenameone.com](https://www.codenameone.com/) - 面向 Java/Kotlin 开发者的开源跨平台移动应用开发工具链。可免费用于商业用途，项目数量不限 ✅
-  * [Cohesivity](https://cohesivity.ai) - Headless backend and services, purpose built for AI agents. Includes hosting, databases, storage, LLMs, and third-party APIs. Agentic signup. Free tier includes 10 projects, 100K edge requests, 10 GB object storage, 100 emails, and 5 USD/month in credits for AI and search. ❓
+  * [Cohesivity](https://cohesivity.ai) - 专为 AI agent 打造的 Headless 后端与服务，涵盖托管、数据库、存储、LLM 及第三方 API。支持 agent 注册。免费额度包含 10 个项目、100K 次边缘请求、10 GB 对象存储、100 封邮件，以及每月 5 USD 的 AI 与搜索额度。 🟡
   * [Daestro](https://daestro.com) - Run compute jobs across Cloud Providers & On-Prem. The free tier includes up to 10 concurrent job runs, 2 compute spawns, self-hosted compute, 1 cloud provider, 1 container registry and 1 cron job. ❓
   * [Deno Deploy](https://deno.com/deploy) - 在全球边缘节点运行 JavaScript、TypeScript 和 WebAssembly 的分布式系统。免费额度为每天 100,000 次请求和每月 100 GiB 数据传输。 ✅
   * [Deplexo](https://deplexo.com/) - 面向开发者的 PaaS，用于部署和托管应用，支持基于 Git 的部署、自定义域名、自动 HTTPS 以及 Dockerfile。可运行 Node.js、Python、Go、Java、Rust、PHP、静态站点等。免费额度包含 1 个应用，配置为 0.25 vCPU、128 MB 内存、250 MB 磁盘和 100 GB 带宽。 🟡
-  * [domcloud.co](https://domcloud.co) - Linux hosting service that provides CI/CD with GitHub, SSH, and MariaDB/Postgres database. The free version has 1 GB storage and 1 GB network/month limit and is limited to a free domain. ❓
+  * [domcloud.co](https://domcloud.co) - 提供 GitHub CI/CD、SSH 及 MariaDB/Postgres 数据库的 Linux 托管服务。免费版提供 1 GB 存储空间和每月 1 GB 流量限额，且仅限使用免费域名。 ✅
   * [encore.dev](https://encore.dev/) - 后端框架，通过静态分析自动提供基础设施、免去样板代码等。为个人爱好项目提供免费云托管。 ✅
   * [faable.com](https://faable.com/) - 通过框架自动检测部署 Python 和 Node.js 应用。免费额度为每个项目提供 1 个 0.5 CPU / 1 GB RAM 实例、10 GB 带宽、每天 10 次成功部署，含自动 SSL 与内置 WAF，并支持 OAuth 2.0 / OIDC 认证。应用在无流量 2 小时后会休眠。服务器位于欧洲。 🟡
   * [flightcontrol.dev](https://flightcontrol.dev/) - 在你自己的 AWS 账户上，以类似 Git push 的工作流部署 Web 服务、数据库等。对团队仅 1 名开发者且使用个人 GitHub 仓库的用户提供免费额度。AWS 费用通过 AWS 计费，但可以使用 credits 和 AWS 免费套餐。 🟡
@@ -1199,10 +1199,10 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [FreeFlarum](https://freeflarum.com/) - 由社区驱动的免费 Flarum 托管服务，最多支持 250 名用户（捐赠可移除页脚水印）。 ❓
   * [Harvis.dev](https://harvis.dev) - 通过 CLI（`npx harvis`）托管静态站点，无需配置文件或构建步骤。包含免费子域名、免费表单提交收集、GitHub Actions 集成、CloudFlare CDN、免费 SSL。 ❓
   * [Koyeb](https://www.koyeb.com/) - Serverless 平台，提供免费的 Hobby 计划，含每月 550 小时免费计算时长（Free 层为 512 MB RAM）、1 个免费 PostgreSQL 数据库，以及自定义域名 SSL。 🟡
-  * [MDB GO](https://mdbgo.com/) - Free hosting for one project with two weeks Container TTL, 500 MB RAM per project, SFTP - 1G disk space. ❓
+  * [MDB GO](https://mdbgo.com/) - 免费托管一个项目，容器 TTL 为两周，每个项目 500 MB 内存，SFTP 提供 1G 磁盘空间。 ✅
   * [Mirin](https://mirin.com) - 面向开发者所构建 React、Vue 或 Svelte 组件网站的建站平台，提供可视化编辑、表单、数据分析以及全球 CDN 托管。免费额度包含 1 个站点，页面数量与表单提交量不限。 ✅
   * [Neocities](https://neocities.org) - 静态托管，提供 1 GB 免费存储空间和 200 GB 流量。 ❓
-  * [Netlify](https://www.netlify.com/) - Builds, deploys and hosts static site/app free for 300 credits/month (equals 30 GB bandwidth). ✅
+  * [Netlify](https://www.netlify.com/) - 构建、部署并托管静态站点/应用，每月免费 300 credits（相当于 30 GB 流量）。 ✅
   * [PandaStack](https://www.pandastack.io/) - 面向开发者的生态系统，提供多种形式的 web 托管（静态网站托管、基于容器的托管、WordPress 以及众多其他托管应用，几次点击即可部署）。免费提供 1 个 web 托管（静态或容器）和 1 个数据库，含 100GB 流量和每月 300 构建分钟。 🟡
   * [pantheon.io](https://pantheon.io/) - 提供 Drupal 与 WordPress 托管、自动化 DevOps 及可弹性扩展的基础设施。对开发者和代理机构免费。不支持自定义域名。 ✅
   * [Qoddi](https://qoddi.com) - 类似于 Heroku 的 PaaS 服务，以开发者为中心，功能一应俱全。免费额度适用于静态资源、预发布（staging）环境和开发者应用。 🟡
@@ -1393,7 +1393,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
 ## 存储与媒体处理
 
   * [AndroidFileHost](https://androidfilehost.com/) - 免费文件分享平台，速度、带宽、文件数量、下载次数等均不设限制。主要面向 Android 开发相关文件，如 APK 构建包、自定义 ROM 及各类修改文件等，但似乎也接受其他任意文件。 ✅
-  * [anon.li Drop](https://anon.li/drop) - Zero-knowledge E2EE file sharing with client-side AES-256-GCM encryption and zero server-side data access. Free uploads for files up to 5GB with max expiry up to 3 days through the website, CLI or API. ❓
+  * [anon.li Drop](https://anon.li/drop) - 零知识端到端加密（E2EE）文件共享服务，采用客户端 AES-256-GCM 加密，服务器端完全不接触数据。通过网站、CLI 或 API 免费上传最大 5GB 的文件，最长有效期 3 天。 ❓
   * [borgbase.com](https://www.borgbase.com/) - 为 Borg Backup 提供简单安全的异地备份托管服务。提供 10 GB 免费备份空间和两个仓库。 ❓
   * [cloudinary.com](https://cloudinary.com/) - 为网站和应用提供图片上传、强大的图像处理、存储与分发服务，提供 Ruby、Python、Java、PHP、Objective-C 等多种语言的 SDK。免费额度为每月 25 个 credit。1 个 credit 等于 1,000 次图片转换、1 GB 存储或 1 GB CDN 流量。 ✅
   * [degoo.com](https://degoo.com/) - 基于 AI 的云存储服务，免费额度最高 20 GB，支持 3 台设备，邀请好友可获 5 GB 奖励（账号 90 天不活跃即失效）。 🟡
@@ -1401,7 +1401,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [Dropshare](https://dropsha.re) - 零知识文件共享。端到端加密的文件共享服务，采用 AES-256-GCM 加密，处理全部在客户端完成，服务器端完全不接触数据。免费上传最大 1GB 的文件，不收集任何数据。 ❓
   * [embed.ly](https://embed.ly/) - 提供用于在网页中嵌入媒体、响应式图片缩放以及从网页中提取元素的 API。每月最多 5,000 个 URL、每秒 15 次请求以内免费 ❓
   * [Ente](https://ente.io/) - Ente 是一个端到端加密的云服务，用于存储照片、视频和 2FA 密钥。也支持自行托管（self-hosted），并提供慷慨的永久免费额度 10GB。免费版用户的数据仅保留单一副本。 ✅
-  * [FileShot.io](https://fileshot.io) - Zero-knowledge encrypted file sharing. AES-256-GCM browser-side encryption ensures files are encrypted in-browser before upload. No account required for sender or recipient. Self-hostable (MIT open-source). Free tier includes unlimited uploads with no file size restrictions. ❓
+  * [FileShot.io](https://fileshot.io) - 零知识加密文件共享。AES-256-GCM 浏览器端加密，确保文件在上传前已在浏览器内完成加密。发送方与接收方均无需注册账号。支持自托管（MIT 开源）。免费额度为不限上传次数、不限文件大小。 ❓
   * [file.io](https://www.file.io) - 提供 2 GB 的文件存储空间。文件在被下载一次后会自动删除。提供 REST API 用于操作存储。速率限制为每分钟 1 次请求。 ❓
   * [freetools.site](https://freetools.site/) - 免费在线工具。可转换或编辑文档、图像、音频、视频等多种文件。 ✅
   * [getpantry.cloud](https://getpantry.cloud/) - 一个简单的 JSON 数据存储 API，非常适合个人项目、黑客松和移动应用！ ✅
@@ -1619,7 +1619,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [Microsoft Clarity](https://clarity.microsoft.com/) - 会话录制完全免费，“无流量限制”、不限项目数量、且不进行抽样 ✅
   * [mouseflow.com](https://mouseflow.com/) - 单个网站每月免费 500 次会话 ✅
   * [OpenReplay.com](https://www.openreplay.com) - 开源会话回放（session replay）工具，配备用于复现 bug 的开发者工具、用于实时支持的 live session 功能，以及产品分析套件。每月 1000 个 session 可使用全部功能，数据保留 7 天。 ✅
-  * [Reactflow.com](https://www.reactflow.com/) - Per site: 1,000 pages views/day, three heatmaps, three widgets, free bug tracking ❓
+  * [Reactflow.com](https://www.reactflow.com/) - 每个站点：1,000 次页面浏览/天，3 个热力图，3 个小组件，免费 bug 跟踪 ✅
   * [smartlook.com](https://www.smartlook.com/) - 为 Web 和移动应用提供免费套餐（每月 1500 个会话）、三张热力图、一个漏斗、1 个月的数据历史 ✅
   * [UXtweak.com](https://www.uxtweak.com/) - 录制并回放访客如何使用你的网站或应用。小型项目可免费不限时长使用。 ✅
 
