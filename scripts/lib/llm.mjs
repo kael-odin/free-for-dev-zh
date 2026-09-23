@@ -59,8 +59,8 @@ function stripThinking(text) {
  * @returns {Promise<string>} 助手回复正文
  */
 export async function chat(messages, opts = {}) {
-  const { temperature = 0.1, maxTokens = 8192, retries = 4, timeoutMs = 180_000 } = opts;
-  const body = { model: MODEL, messages, temperature, max_tokens: maxTokens };
+  const { temperature = 0.1, maxTokens = 8192, retries = 4, timeoutMs = 180_000, extraBody = null } = opts;
+  const body = { model: MODEL, messages, temperature, max_tokens: maxTokens, ...(extraBody ?? {}) };
 
   let lastErr;
   for (let attempt = 0; attempt <= retries; attempt++) {

@@ -49,7 +49,7 @@ const TEXT_SYS = `你是技术文档本地化专家。输入若干行「编号|�
 5. 只输出译文行，不要解释`;
 
 function parseArgs(argv) {
-  const out = { limit: 0, concurrency: 6, entryBatch: 12, textBatch: 10, stats: false };
+  const out = { limit: 0, concurrency: 6, entryBatch: 8, textBatch: 10, stats: false };
   for (const a of argv) {
     const m = a.match(/^--(\w[\w-]*)(?:=(.*))?$/);
     if (!m) continue;
@@ -78,6 +78,15 @@ function extractJson(text) {
   return JSON.parse(body.slice(start, end + 1));
 }
 
+/** 判断一段文本是否有「可翻译内容」：剥掉链接和 URL 后只剩大写缩写/符号的，模型原样通过即算合格。 */
+function hasTranslatable(text) {
+  const bare = text
+    .replace(/\[[^\]]*\]\([^)]*\)/g, '') // 行内链接
+    .replace(/https?:\/\/\S+/g, '') // 裸 URL
+    .replace(/\b[\w.-]+@[\w.-]+\.\w+\b/g, ''); // 邮箱
+  return /[a-z]/.test(bare) || /[\u4e00-\u9fff]/.test(bare);
+}
+
 async function translateEntryBatch(batch, limiter) {
   const numbered = batch.map((it, idx) => `${idx + 1}| ${it.desc}`).join('\n');
   const raw = await chat(
@@ -85,8 +94,8 @@ async function translateEntryBatch(batch, limiter) {
       { role: 'system', content: ENTRY_SYS },
       { role: 'user', content: numbered },
     ],
-    // 推理模型的思考会吃掉大量输出预算，批次给足，防 JSON 被截断
-    { maxTokens: 24_000 },
+    // 推理模型的思考会吃掉大量输出预算：批次给足 token，超时放宽到 5 分钟
+    { maxTokens: 24_000, timeoutMs: 300_000 },
   );
   const arr = extractJson(raw);
   const byN = new Map();
@@ -97,7 +106,7 @@ async function translateEntryBatch(batch, limiter) {
     const r = byN.get(idx + 1);
     const zh = typeof r?.zh === 'string' ? r.zh.trim() : '';
     const access = ACCESS.has(r?.access) ? r.access : 'unknown';
-    if (!zh || zh === it.desc) throw new Error(`第 ${idx + 1} 条译文缺失或未翻译`);
+    if (!zh || (zh === it.desc && hasTranslatable(it.desc))) throw new Error(`第 ${idx + 1} 条译文缺失或未翻译`);
     return { hash: it.hash, rec: { kind: 'entry', zh, access } };
   });
   return results;
@@ -110,7 +119,7 @@ async function translateTextBatch(batch, limiter) {
       { role: 'system', content: TEXT_SYS },
       { role: 'user', content: numbered },
     ],
-    { maxTokens: 16_000 },
+    { maxTokens: 16_000, timeoutMs: 300_000 },
   );
   const out = new Map();
   for (const line of raw.split('\n')) {
@@ -119,7 +128,7 @@ async function translateTextBatch(batch, limiter) {
   }
   return batch.map((it, idx) => {
     const zh = out.get(idx + 1);
-    if (!zh || zh === it.text) throw new Error(`第 ${idx + 1} 行译文缺失或未翻译`);
+    if (!zh || (zh === it.text && hasTranslatable(it.text))) throw new Error(`第 ${idx + 1} 行译文缺失或未翻译`);
     return { hash: it.hash, rec: { kind: it.kind, zh, access: null } };
   });
 }
@@ -209,6 +218,7 @@ async function runBatches(items, size, fn) {
           const results = await fn(g);
           for (const r of results) cache[r.hash] = r.rec;
           done += g.length;
+          console.log(`[progress] +${g.length}（累计 ${done}/${limited.length}，失败 ${failed}）`);
         } catch {
           // 整批不合格 → 降级单条重试
           for (const it of g) await one(it);

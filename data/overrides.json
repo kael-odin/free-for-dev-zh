@@ -1,0 +1,10 @@
+{
+  "Google Cloud Platform": { "access": "partial" },
+  "Amazon Web Services": { "access": "partial" },
+  "Microsoft Azure": { "access": "partial" },
+  "Oracle Cloud": { "access": "partial" },
+  "IBM Cloud": { "access": "partial" },
+  "Cloudflare": { "access": "direct" },
+  "Vercel": { "access": "direct" },
+  "Netlify": { "access": "direct" }
+}
