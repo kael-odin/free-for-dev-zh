@@ -1,0 +1,40 @@
+{
+ "version": 1,
+ "cache": {
+  "b405a180eaaf6fc8": {
+   "kind": "entry",
+   "zh": "免费的 Jupyter Notebooks 开发环境。",
+   "access": "unknown"
+  },
+  "4287a0fddb309452": {
+   "kind": "entry",
+   "zh": "提供 4 核 CPU、30 GB 内存的 Jupyter Notebooks 计算环境，无每周使用量限制。完成手机号验证后，可免费添加 1 块 Nvidia Tesla P100 GPU 或 2 块 Nvidia Tesla T4 GPU，每周使用限额为 30 GPU 小时。完成身份验证后，可免费使用 1 台配备 96 核 CPU 和 330 GB 内存的 TPU v3-8，每周使用限额为 20 小时。详情请查看 [技术规格](https://www.kaggle.com/docs/notebooks#technical-specifications)。",
+   "access": "partial"
+  },
+  "e7daae085446d776": {
+   "kind": "entry",
+   "zh": "免费的远程桌面应用，可连接的设备数量几乎没有限制，隶属于 Google，因此需要 Google 账号。",
+   "access": "blocked"
+  },
+  "e15cdc394210d270": {
+   "kind": "entry",
+   "zh": "免费使用 Gemini 3.5 Flash、Gemini 3 Flash 和 Gemma 4 模型。Flash 的免费额度为每分钟 5 次请求、每天 20 次请求、每分钟 250k 输入 token；Gemma 4 的免费额度为每分钟 30 次请求、每天 14.4k 次请求，但每分钟只有 16k 输入 token。",
+   "access": "blocked"
+  },
+  "c7dca7cd444356e1": {
+   "kind": "entry",
+   "zh": "10 个自定义指标和告警，1M 次 API 请求，5GB 日志数据摄取量和 5GB 日志数据归档量",
+   "access": "unknown"
+  },
+  "17e7297aa97b1cb9": {
+   "kind": "entry",
+   "zh": "每月 100 分钟构建时间",
+   "access": "unknown"
+  },
+  "aca50e04bb058102": {
+   "kind": "entry",
+   "zh": "5 个活跃用户，每账户 5k 个仓库，每月 50GB 存储空间和 10K 次请求",
+   "access": "unknown"
+  }
+ }
+}

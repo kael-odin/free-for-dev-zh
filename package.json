@@ -1,0 +1,11 @@
+{
+  "name": "free-for-dev-zh",
+  "private": true,
+  "type": "module",
+  "description": "free-for.dev 的中文翻译镜像，每日自动同步上游 + AI 增量翻译 + 大陆可用性标注",
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "translate": "node scripts/translate.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}

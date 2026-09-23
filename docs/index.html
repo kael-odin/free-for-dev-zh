@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>开发者免费资源大全 · free-for.dev 中文版</title>
+    <meta
+      name="description"
+      content="free-for.dev 的中文镜像：1300+ 开发者免费服务（云、DNS、CDN、CI/CD、监控、AI 等），每日自动同步上游，AI 增量翻译，附大陆可用性标注。"
+    />
+    <meta itemprop="name" content="开发者免费资源大全 · free-for.dev 中文版" />
+    <link rel="stylesheet" href="vendor/vue.css" />
+    <link rel="stylesheet" href="vendor/darklight.css" />
+  </head>
+  <body>
+    <noscript>
+      本站需要 JavaScript。也可以直接在
+      <a href="https://github.com/kael-odin/free-for-dev-zh">GitHub</a>
+      上阅读 README.zh.md。
+    </noscript>
+
+    <div id="app">加载中…</div>
+
+    <script>
+      window.$docsify = {
+        homepage: 'README.zh.md',
+        name: '开发者免费资源大全',
+        auto2top: true,
+        subMaxLevel: 2,
+        search: {
+          paths: ['README.zh.md'],
+          depth: 3,
+          placeholder: '搜索服务…',
+          noData: '没有找到相关结果',
+        },
+        darklightTheme: {
+          siteFont: 'Source Sans Pro, Helvetica Neue',
+          defaultTheme: 'light',
+          codeFontFamily: 'Roboto Mono, Monaco, courier, monospace',
+          bodyFontSize: '15px',
+        },
+      };
+    </script>
+    <script src="vendor/docsify.min.js"></script>
+    <script src="vendor/search.min.js"></script>
+    <script src="vendor/darklight.min.js"></script>
+  </body>
+</html>
