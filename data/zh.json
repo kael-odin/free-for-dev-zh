@@ -6955,6 +6955,31 @@
    "kind": "entry",
    "zh": "每个站点：1,000 次页面浏览/天，3 个热力图，3 个小组件，免费 bug 跟踪",
    "access": "direct"
+  },
+  "89105ac46feb1ae5": {
+   "kind": "entry",
+   "zh": "在多个云服务商及本地（On-Prem）环境中运行计算任务。免费额度包括最多 10 个并发任务运行、2 个 compute spawn、自托管计算、1 个云服务商、1 个容器镜像仓库和 1 个 cron job。",
+   "access": "partial"
+  },
+  "28f3ddb502d79c17": {
+   "kind": "entry",
+   "zh": "以现代多媒体短格式 Miniblogs（迷你博客）的形式，免费向全世界分享你的想法、知识与故事。",
+   "access": "blocked"
+  },
+  "5de8a16f494b250e": {
+   "kind": "entry",
+   "zh": "只需执行一次 docker push，即可托管用于演示的 Docker 容器。免费额度包含 1 个槽位，每次会话时长 2 小时。",
+   "access": "unknown"
+  },
+  "020965a2f08f4028": {
+   "kind": "heading",
+   "zh": "DNS",
+   "access": null
+  },
+  "c0b6a0226b6d1b97": {
+   "kind": "heading",
+   "zh": "CMS",
+   "access": null
   }
  }
 }

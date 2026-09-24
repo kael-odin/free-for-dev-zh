@@ -1123,7 +1123,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [Choreo](https://wso2.com/choreo/) - AI 原生的内部开发者平台即服务。免费层包含最多 5 个组件，以及每月 $100 的额度。 ❓
   * [codenameone.com](https://www.codenameone.com/) - 面向 Java/Kotlin 开发者的开源跨平台移动应用开发工具链。可免费用于商业用途，项目数量不限 ✅
   * [Cohesivity](https://cohesivity.ai) - 专为 AI agent 打造的 Headless 后端与服务，涵盖托管、数据库、存储、LLM 及第三方 API。支持 agent 注册。免费额度包含 10 个项目、100K 次边缘请求、10 GB 对象存储、100 封邮件，以及每月 5 USD 的 AI 与搜索额度。 🟡
-  * [Daestro](https://daestro.com) - Run compute jobs across Cloud Providers & On-Prem. The free tier includes up to 10 concurrent job runs, 2 compute spawns, self-hosted compute, 1 cloud provider, 1 container registry and 1 cron job. ❓
+  * [Daestro](https://daestro.com) - 在多个云服务商及本地（On-Prem）环境中运行计算任务。免费额度包括最多 10 个并发任务运行、2 个 compute spawn、自托管计算、1 个云服务商、1 个容器镜像仓库和 1 个 cron job。 🟡
   * [Deno Deploy](https://deno.com/deploy) - 在全球边缘节点运行 JavaScript、TypeScript 和 WebAssembly 的分布式系统。免费额度为每天 100,000 次请求和每月 100 GiB 数据传输。 ✅
   * [Deplexo](https://deplexo.com/) - 面向开发者的 PaaS，用于部署和托管应用，支持基于 Git 的部署、自定义域名、自动 HTTPS 以及 Dockerfile。可运行 Node.js、Python、Go、Java、Rust、PHP、静态站点等。免费额度包含 1 个应用，配置为 0.25 vCPU、128 MB 内存、250 MB 磁盘和 100 GB 带宽。 🟡
   * [domcloud.co](https://domcloud.co) - 提供 GitHub CI/CD、SSH 及 MariaDB/Postgres 数据库的 Linux 托管服务。免费版提供 1 GB 存储空间和每月 1 GB 流量限额，且仅限使用免费域名。 ✅
@@ -1658,7 +1658,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
 <a id="sec-48"></a>
 ## Docker 相关
 
-  * [Appish](https://appi.sh/) - Host Docker containers for demos with just a docker push. Free tier includes 1 slot with 2-hour sessions. ❓
+  * [Appish](https://appi.sh/) - 只需执行一次 docker push，即可托管用于演示的 Docker 容器。免费额度包含 1 个槽位，每次会话时长 2 小时。 ❓
   * [Container Registry Service](https://container-registry.com/) - 基于 Harbor 的容器管理解决方案。免费层为私有仓库提供 1 GB 存储空间。 ❓
   * [Docker Hub](https://hub.docker.com) - 提供 1 个免费私有仓库及不限数量的公开仓库，可用于构建和存储 Docker 镜像 🔴
   * [quay.io](https://quay.io/) - 构建并存储容器镜像，免费公共仓库数量不限 🔴
@@ -1669,7 +1669,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
 <a id="sec-49"></a>
 ## 开发者博客网站
 
-  * [AyeDot](https://ayedot.com/) - Share your ideas, knowledge, and stories with the world for Free in the form of Modern multimedia short-format Miniblogs. ❓
+  * [AyeDot](https://ayedot.com/) - 以现代多媒体短格式 Miniblogs（迷你博客）的形式，免费向全世界分享你的想法、知识与故事。 🔴
   * [BearBlog](https://bearblog.dev/) - 极简风格的 Markdown 博客与网站搭建工具。 ❓
   * [Dev.to](https://dev.to/) - 程序员分享想法、互相帮助共同成长的社区。 ✅
   * [Hashnode](https://hashnode.com/) - 面向开发者的省心博客软件！ ✅
