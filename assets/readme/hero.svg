@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="340" viewBox="0 0 1200 340" role="img" aria-labelledby="hero-title hero-desc">
+  <title id="hero-title">开发者免费资源大全 · free-for.dev 中文版</title>
+  <desc id="hero-desc">1300 多个免费开发者服务的中文清单，每条标注免费额度与大陆可用性；右侧展示三条真实条目样例：Oracle Cloud 有门槛、ClouDNS 直连可用、Google AI Studio 大陆受限。</desc>
+
+  <defs>
+    <style>
+      .sans { font-family: "PingFang SC", "Microsoft YaHei", "Segoe UI", -apple-system, sans-serif; }
+      .mono { font-family: ui-monospace, "Cascadia Code", Consolas, Menlo, monospace; }
+    </style>
+  </defs>
+
+  <!-- 画布：GitHub 深色画布色，明暗主题下都成立 -->
+  <rect x="1" y="1" width="1198" height="338" rx="22" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- ============ 左：标题区 ============ -->
+  <g class="sans" transform="translate(60 48)">
+    <text class="mono" y="8" font-size="16" letter-spacing="3" fill="#7d8590">FREE-FOR.DEV 中文版 · 每日同步</text>
+    <text y="62" font-size="50" font-weight="700" fill="#e6edf3">开发者免费资源大全</text>
+    <text y="104" font-size="22" fill="#c9d1d9">1300+ 个免费开发者服务<tspan fill="#8b949e">，</tspan></text>
+    <text y="134" font-size="22" fill="#c9d1d9">额度多少、大陆能不能用，每条都标好</text>
+
+    <!-- 四级可用性图例（项目核心语义） -->
+    <g transform="translate(0 172)">
+      <g transform="translate(0 0)">
+        <rect x="0" y="0" width="112" height="32" rx="16" fill="#3fb950" fill-opacity="0.13" stroke="#3fb950" stroke-opacity="0.55" stroke-width="1.5"/>
+        <circle cx="16" cy="16" r="4" fill="#3fb950"/>
+        <text x="28" y="21" font-size="18" fill="#3fb950">直连可用</text>
+      </g>
+      <g transform="translate(120 0)">
+        <rect x="0" y="0" width="96" height="32" rx="16" fill="#d29922" fill-opacity="0.13" stroke="#d29922" stroke-opacity="0.55" stroke-width="1.5"/>
+        <circle cx="16" cy="16" r="4" fill="#d29922"/>
+        <text x="28" y="21" font-size="18" fill="#d29922">有门槛</text>
+      </g>
+      <g transform="translate(228 0)">
+        <rect x="0" y="0" width="112" height="32" rx="16" fill="#f85149" fill-opacity="0.13" stroke="#f85149" stroke-opacity="0.55" stroke-width="1.5"/>
+        <circle cx="16" cy="16" r="4" fill="#f85149"/>
+        <text x="28" y="21" font-size="18" fill="#f85149">大陆受限</text>
+      </g>
+      <g transform="translate(348 0)">
+        <rect x="0" y="0" width="84" height="32" rx="16" fill="#8b949e" fill-opacity="0.13" stroke="#8b949e" stroke-opacity="0.55" stroke-width="1.5"/>
+        <circle cx="16" cy="16" r="4" fill="#8b949e"/>
+        <text x="28" y="21" font-size="18" fill="#8b949e">未知</text>
+      </g>
+    </g>
+
+    <text class="mono" y="252" font-size="16" fill="#7d8590">1300+ 条服务 · 50+ 个分类 · 每日自动同步 · 内置 agent skill</text>
+  </g>
+
+  <!-- ============ 右：真实条目样例（proof） ============ -->
+  <g transform="translate(716 40)">
+    <rect x="0" y="0" width="424" height="260" rx="14" fill="#161b22" stroke="#30363d" stroke-width="1.5"/>
+    <text class="mono" x="22" y="34" font-size="16" fill="#7d8590">README.zh.md · 条目样例</text>
+
+    <!-- 条目 1：Oracle Cloud（真实条目，🟡） -->
+    <text class="sans" x="22" y="68" font-size="20" font-weight="700" fill="#e6edf3">Oracle Cloud</text>
+    <g transform="translate(332 52)">
+      <rect x="0" y="0" width="70" height="24" rx="12" fill="#d29922" fill-opacity="0.13" stroke="#d29922" stroke-opacity="0.55" stroke-width="1.5"/>
+      <circle cx="13" cy="12" r="3.5" fill="#d29922"/>
+      <text class="sans" x="24" y="17" font-size="16" fill="#d29922">门槛</text>
+    </g>
+    <text class="sans" x="22" y="94" font-size="18" fill="#8b949e">ARM 虚拟机（2 核 12GB），永久免费</text>
+    <line x1="22" y1="110" x2="402" y2="110" stroke="#21262d" stroke-width="1.5"/>
+
+    <!-- 条目 2：ClouDNS（真实条目，✅） -->
+    <text class="sans" x="22" y="138" font-size="20" font-weight="700" fill="#e6edf3">ClouDNS</text>
+    <g transform="translate(332 122)">
+      <rect x="0" y="0" width="70" height="24" rx="12" fill="#3fb950" fill-opacity="0.13" stroke="#3fb950" stroke-opacity="0.55" stroke-width="1.5"/>
+      <circle cx="13" cy="12" r="3.5" fill="#3fb950"/>
+      <text class="sans" x="24" y="17" font-size="16" fill="#3fb950">直连</text>
+    </g>
+    <text class="sans" x="22" y="164" font-size="18" fill="#8b949e">免费 DNS 托管：1 个域名、50 条记录</text>
+    <line x1="22" y1="180" x2="402" y2="180" stroke="#21262d" stroke-width="1.5"/>
+
+    <!-- 条目 3：Google AI Studio（真实条目，🔴） -->
+    <text class="sans" x="22" y="208" font-size="20" font-weight="700" fill="#e6edf3">Google AI Studio</text>
+    <g transform="translate(332 192)">
+      <rect x="0" y="0" width="70" height="24" rx="12" fill="#f85149" fill-opacity="0.13" stroke="#f85149" stroke-opacity="0.55" stroke-width="1.5"/>
+      <circle cx="13" cy="12" r="3.5" fill="#f85149"/>
+      <text class="sans" x="24" y="17" font-size="16" fill="#f85149">受限</text>
+    </g>
+    <text class="sans" x="22" y="234" font-size="18" fill="#8b949e">Gemini Flash 免费：5 次/分、20 次/天</text>
+
+    <text class="mono" x="22" y="252" font-size="16" fill="#7d8590">……共 1300+ 条，见完整清单</text>
+  </g>
+</svg>

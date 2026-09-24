@@ -1,5 +1,15 @@
 # 开发者免费资源大全 · free-for-dev 中文版
 
+<p align="center">
+  <img src="./assets/readme/hero.svg" width="100%" alt="开发者免费资源大全：1300+ 个免费开发者服务的中文清单，每条标注免费额度与大陆可用性。右侧为真实条目样例：Oracle Cloud 有门槛、ClouDNS 直连可用、Google AI Studio 大陆受限。">
+</p>
+
+<p align="center">
+  <a href="https://github.com/kael-odin/free-for-dev-zh/stargazers"><img src="https://img.shields.io/github/stars/kael-odin/free-for-dev-zh?style=flat-square" alt="GitHub Stars"></a>
+  <a href="https://kael-odin.github.io/free-for-dev-zh/"><img src="https://img.shields.io/website?url=https%3A%2F%2Fkael-odin.github.io%2Ffree-for-dev-zh%2F&style=flat-square&label=online" alt="站点状态"></a>
+  <img src="https://img.shields.io/badge/upstream-free--for--dev%20138k%E2%98%85-8b949e?style=flat-square" alt="上游仓库 free-for.dev">
+</p>
+
 [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)（138k⭐）的中文翻译镜像：收录 **1300+** 对开发者有真实价值的免费服务（SaaS / PaaS / IaaS），每日自动同步上游，AI 增量翻译，并为每条服务标注**大陆可用性**。
 
 **📖 在线阅读：<https://kael-odin.github.io/free-for-dev-zh/>**（支持搜索、暗色模式，也可直接阅读 [README.zh.md](README.zh.md)）
