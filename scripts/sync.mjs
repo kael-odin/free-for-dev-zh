@@ -50,7 +50,7 @@ async function fetchUpstream() {
     }
   }
   // 最后兜底：gh api 拉取 base64 内容
-  const b64 = await ghApi(['repos', UPSTREAM_REPO, 'contents', 'README.md', '--jq', '.content']);
+  const b64 = await ghApi([`repos/${UPSTREAM_REPO}/contents/README.md`, '--jq', '.content']);
   const text = Buffer.from(b64.replace(/\s/g, ''), 'base64').toString('utf8');
   if (!looksValid(text)) throw new Error('gh api 内容校验失败');
   console.log(`[sync] 来源 gh api，${text.length} bytes`);
@@ -59,7 +59,7 @@ async function fetchUpstream() {
 
 async function upstreamSha() {
   try {
-    return (await ghApi(['repos', `${UPSTREAM_REPO}/commits/master`, '--jq', '.sha'])).trim().slice(0, 12);
+    return (await ghApi([`repos/${UPSTREAM_REPO}/commits/master`, '--jq', '.sha'])).trim().slice(0, 12);
   } catch {
     return null;
   }
