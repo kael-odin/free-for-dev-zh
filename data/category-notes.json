@@ -1,5 +1,5 @@
 {
-  "major-cloud-providers": "大厂云的永久免费额度（GCP/AWS/Azure/Oracle/IBM），要云主机、对象存储、Serverless 先看这",
+  "major-cloud-providers": "大厂云的永久免费额度（GCP/AWS/Azure/Oracle/IBM），白嫖云服务器（如 Oracle 免费虚拟机）、对象存储、Serverless 先看这",
   "cloud-management-solutions": "多云管理与成本面板",
   "source-code-repos": "代码托管、私有仓库",
   "apis-data-and-ml": "各类公共 API、数据集、机器学习服务",
@@ -14,7 +14,7 @@
   "security-and-pki": "安全扫描、漏洞检测、SSL/证书",
   "authentication-authorization-and-user-management": "登录鉴权、SSO、MFA、用户管理",
   "mobile-app-distribution-and-feedback": "App 测试分发与用户反馈",
-  "management-system": "管理面板/后台系统",
+  "management-system": "设备与应用管理：MDM/MAM、应用部署管理",
   "messaging-and-streaming": "消息推送、聊天、实时流",
   "log-management": "日志收集与分析",
   "translation-management": "软件本地化/i18n 翻译管理",
@@ -34,7 +34,7 @@
   "web-hosting": "静态/传统网站托管",
   "dns": "DNS 托管、DDNS",
   "domain": "免费域名与子域名",
-  "iaas": "云主机/VPS（Oracle 永久免费服务器在这里）",
+  "iaas": "存储型基础设施：对象存储、IPFS/去中心化存储（要免费云服务器看 major-cloud-providers）",
   "managed-data-services": "托管数据库：Postgres/MySQL/Mongo/Redis",
   "tunneling-webrtc-web-socket-servers-and-other-routers": "内网穿透、隧道、WebRTC",
   "issue-tracking-and-project-management": "项目管理与 issue 跟踪",
@@ -53,7 +53,7 @@
   "screenshot-apis": "网页截图 API",
   "flutter-related-and-building-ios-apps-without-mac": "Flutter 与无 Mac 构建 iOS",
   "privacy-management": "隐私合规（GDPR/Cookie）",
-  "miscellaneous": "杂项工具",
+  "miscellaneous": "杂项：在线 cron 触发、IoT、代码片段分享等不好归类的好东西",
   "remote-desktop-tools": "远程桌面",
   "other-free-resources": "其他免费资源清单合集（扩展阅读）"
 }

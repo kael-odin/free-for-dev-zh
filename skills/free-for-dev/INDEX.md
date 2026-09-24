@@ -8,7 +8,7 @@
 
 | 文件 | 分类 | 条目 | 选用说明 |
 |---|---|---|---|
-| [major-cloud-providers.md](major-cloud-providers) | 主要云服务提供商 | 73 | 大厂云的永久免费额度（GCP/AWS/Azure/Oracle/IBM），要云主机、对象存储、Serverless 先看这 |
+| [major-cloud-providers.md](major-cloud-providers) | 主要云服务提供商 | 73 | 大厂云的永久免费额度（GCP/AWS/Azure/Oracle/IBM），白嫖云服务器（如 Oracle 免费虚拟机）、对象存储、Serverless 先看这 |
 | [cloud-management-solutions.md](cloud-management-solutions) | 云管理解决方案 | 7 | 多云管理与成本面板 |
 | [source-code-repos.md](source-code-repos) | 源代码仓库 | 12 | 代码托管、私有仓库 |
 | [apis-data-and-ml.md](apis-data-and-ml) | API、数据与机器学习 | 136 | 各类公共 API、数据集、机器学习服务 |
@@ -23,7 +23,7 @@
 | [security-and-pki.md](security-and-pki) | 安全与 PKI | 38 | 安全扫描、漏洞检测、SSL/证书 |
 | [authentication-authorization-and-user-management.md](authentication-authorization-and-user-management) | 身份验证、授权与用户管理 | 28 | 登录鉴权、SSO、MFA、用户管理 |
 | [mobile-app-distribution-and-feedback.md](mobile-app-distribution-and-feedback) | 移动应用分发与反馈 | 6 | App 测试分发与用户反馈 |
-| [management-system.md](management-system) | 管理系统 | 8 | 管理面板/后台系统 |
+| [management-system.md](management-system) | 管理系统 | 8 | 设备与应用管理：MDM/MAM、应用部署管理 |
 | [messaging-and-streaming.md](messaging-and-streaming) | 消息传递与流处理 | 20 | 消息推送、聊天、实时流 |
 | [log-management.md](log-management) | 日志管理 | 8 | 日志收集与分析 |
 | [translation-management.md](translation-management) | 翻译管理 | 15 | 软件本地化/i18n 翻译管理 |
@@ -43,7 +43,7 @@
 | [web-hosting.md](web-hosting) | 虚拟主机 | 26 | 静态/传统网站托管 |
 | [dns.md](dns) | DNS | 22 | DNS 托管、DDNS |
 | [domain.md](domain) | 域名 | 4 | 免费域名与子域名 |
-| [iaas.md](iaas) | IaaS | 4 | 云主机/VPS（Oracle 永久免费服务器在这里） |
+| [iaas.md](iaas) | IaaS | 4 | 存储型基础设施：对象存储、IPFS/去中心化存储（要免费云服务器看 major-cloud-providers） |
 | [managed-data-services.md](managed-data-services) | 托管数据服务 | 25 | 托管数据库：Postgres/MySQL/Mongo/Redis |
 | [tunneling-webrtc-web-socket-servers-and-other-routers.md](tunneling-webrtc-web-socket-servers-and-other-routers) | 隧道、WebRTC、Web Socket 服务器及其他路由器 | 17 | 内网穿透、隧道、WebRTC |
 | [issue-tracking-and-project-management.md](issue-tracking-and-project-management) | 问题跟踪与项目管理 | 60 | 项目管理与 issue 跟踪 |
@@ -62,7 +62,7 @@
 | [screenshot-apis.md](screenshot-apis) | 截图 API | 11 | 网页截图 API |
 | [flutter-related-and-building-ios-apps-without-mac.md](flutter-related-and-building-ios-apps-without-mac) | Flutter 相关及无需 Mac 构建 iOS 应用 | 3 | Flutter 与无 Mac 构建 iOS |
 | [privacy-management.md](privacy-management) | 隐私管理 | 5 | 隐私合规（GDPR/Cookie） |
-| [miscellaneous.md](miscellaneous) | 杂项 | 25 | 杂项工具 |
+| [miscellaneous.md](miscellaneous) | 杂项 | 25 | 杂项：在线 cron 触发、IoT、代码片段分享等不好归类的好东西 |
 | [remote-desktop-tools.md](remote-desktop-tools) | 远程桌面工具 | 5 | 远程桌面 |
 | [other-free-resources.md](other-free-resources) | 其他免费资源 | 11 | 其他免费资源清单合集（扩展阅读） |
 

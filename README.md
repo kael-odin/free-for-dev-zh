@@ -36,6 +36,17 @@
 
 本地手动跑：`npm run sync && npm run translate && npm run build`。
 
+## 装成你 AI 助手的技能
+
+本仓库自带一个 **agent skill**（`skills/free-for-dev/`）：让 ZCode、Claude Code 等支持 skills 的 AI 助手，在你日常开发缺资源、想要免费额度时，直接从这份每日更新的数据里做智能推荐（含大陆可用性判断）。
+
+```bash
+git clone --depth 1 https://github.com/kael-odin/free-for-dev-zh
+cp -r free-for-dev-zh/skills/free-for-dev ~/.agents/skills/free-for-dev-zh
+```
+
+之后对助手说「帮我找个免费数据库」「想白嫖台服务器」即可触发。数据随本仓库每日构建自动更新，skill 内的 `data/meta.json` 超过 30 天时按 SKILL.md 里的刷新命令更新即可。
+
 > [!IMPORTANT]
 > **署名与免责声明**：清单内容翻译自 [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)（[free-for.dev](https://free-for.dev/)），原始清单由原作者与 1600+ 贡献者编纂维护，**版权归原作者所有**。原仓库未声明开源许可证，本项目仅为便于中文读者查阅的非商业翻译镜像，如版权方有异议将按要求处理。免费档信息以各官方页面为准，随时可能变动；「大陆可用性」标注由 AI 生成，仅供参考。本仓库与所列服务无任何关联。
 >
