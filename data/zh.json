@@ -6980,6 +6980,16 @@
    "kind": "heading",
    "zh": "CMS",
    "access": null
+  },
+  "7cce4618fb78d025": {
+   "kind": "entry",
+   "zh": "部署在你自己的 AWS 账户（SES）中的邮件基础设施，附带仪表盘。发送费用直接付给 AWS。免费计划覆盖 1 个 AWS 账户，域名和联系人数量不限。",
+   "access": "partial"
+  },
+  "225d7be2a73982bf": {
+   "kind": "entry",
+   "zh": "一个 mock API 服务：粘贴你的 JSON，即可模拟延迟、错误、请求失败、格式错误的响应等 API 问题。不使用 key 时每天可发起 1,000 次请求，使用免费 key 则每天可发起 10,000 次请求。不提供付费套餐。",
+   "access": "direct"
   }
  }
 }

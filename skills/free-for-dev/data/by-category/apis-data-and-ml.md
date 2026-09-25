@@ -1,4 +1,4 @@
-# API、数据与机器学习（136 条服务）
+# API、数据与机器学习（137 条服务）
 
 
   * [Abstract API](https://www.abstractapi.com) - 面向多种用例的 API 套件，包括 IP 地理定位、电话号码验证和邮箱验证等。 ✅
@@ -48,6 +48,7 @@
   * [Financial Data](https://financialdata.net/) - 股票市场与金融数据 API。免费计划每天允许 300 次请求。 ✅
   * [finlight](https://finlight.me) - 实时金融新闻 API，支持实体解析（tickers、ISIN）与情感标注，可通过 REST、WebSocket、webhook 和 MCP server 访问。免费层：REST 与 MCP 每月 5,000 次请求，文章延迟 12 小时，无需信用卡。 ✅
   * [Firecrawl](https://www.firecrawl.dev/) - 抓取网站并将其转换为干净、适合 LLM 使用的 markdown 或结构化数据的 API，可处理 JavaScript 渲染、代理和速率限制。免费套餐每月包含 1,000 credits，无需信用卡。 ✅
+  * [flaky](https://flakyapi.dev) - 一个 mock API 服务：粘贴你的 JSON，即可模拟延迟、错误、请求失败、格式错误的响应等 API 问题。不使用 key 时每天可发起 1,000 次请求，使用免费 key 则每天可发起 10,000 次请求。不提供付费套餐。 ✅
   * [Formfeed](https://formfeed.dev) - 通过简单 API 或 Zapier、Make 等自动化工具，从 JSON 生成 PDF 和图片的 API。免费计划每月包含 100 次 PDF 转换。 ❓
   * [FraudLabs Pro](https://www.fraudlabspro.com) - 筛查订单交易中的信用卡支付欺诈。该 REST API 会根据订单的输入参数检测所有可能的欺诈特征。免费的 Micro 套餐每月 500 笔交易。 ✅
   * [FreeIPAPI](https://freeipapi.com) - 面向商业与非商业用户的免费、快速、可靠的 IP 地理位置定位 API，以 JSON 格式提供。 ✅

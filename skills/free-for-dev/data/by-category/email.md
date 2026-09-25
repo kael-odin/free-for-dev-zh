@@ -74,7 +74,7 @@
   * [Verifalia](https://verifalia.com/email-verification-api) - 实时邮箱验证 API，支持邮箱存在性确认和一次性邮箱地址检测；每天 25 次免费邮箱验证。 ✅
   * [verimail.io](https://verimail.io/) - 批量及 API 邮箱验证服务。每月 100 次免费验证。 ✅
   * [Waitlio](https://waitlio.com/) - 面向产品发布的候补名单（waitlist）管理软件。可创建品牌化候补名单页面，收集并验证邮箱订阅者，通过标签和数据分析管理注册用户。免费计划包含每月 100 名订阅者、1 个候补名单以及 API 访问权限。 ✅
-  * [Wraps](https://wraps.dev) - 邮件自动化工作流，免费提供 5k 跟踪事件和无限联系人。 ❓
+  * [Wraps](https://wraps.dev) - 部署在你自己的 AWS 账户（SES）中的邮件基础设施，附带仪表盘。发送费用直接付给 AWS。免费计划覆盖 1 个 AWS 账户，域名和联系人数量不限。 🟡
   * [ZeroSMTP](https://github.com/msgwing/ZeroSMTP) - 基于 msgwing.com 域名的免费 SMTP 中继，每天最多 200 封邮件，无付费套餐。只能从共享的 @msgwing.com 地址发信（不支持自定义域名）。提供 15 种语言的即用代码示例，以及 Windows Server/Linux/网络打印机配置指南。 ❓
 
 **[⬆️ 返回顶部](#table-of-contents)**

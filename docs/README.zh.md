@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **署名与免责声明**：本清单翻译自 [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)（[free-for.dev](https://free-for.dev/)）。原始清单由原作者与 1600+ 贡献者编纂维护，版权归原作者所有；原仓库未声明开源许可证，本项目仅为便于中文读者查阅的非商业翻译镜像，如版权方有异议将按要求处理。本站与所列服务无任何关联，免费档信息以各官方页面为准，随时可能变动。
 
-**上游同步**：2026-09-24T01:34:15.156Z · 上游版本 `6e38808e3cf2` · 每日自动同步
+**上游同步**：2026-09-25T01:33:02.949Z · 上游版本 `4197e303b0d3` · 每日自动同步
 
 **「大陆可用性」标注**由 AI 辅助生成，仅供参考，欢迎提 PR 修正（编辑 `data/overrides.json`）：
 
@@ -286,6 +286,7 @@
   * [Financial Data](https://financialdata.net/) - 股票市场与金融数据 API。免费计划每天允许 300 次请求。 ✅
   * [finlight](https://finlight.me) - 实时金融新闻 API，支持实体解析（tickers、ISIN）与情感标注，可通过 REST、WebSocket、webhook 和 MCP server 访问。免费层：REST 与 MCP 每月 5,000 次请求，文章延迟 12 小时，无需信用卡。 ✅
   * [Firecrawl](https://www.firecrawl.dev/) - 抓取网站并将其转换为干净、适合 LLM 使用的 markdown 或结构化数据的 API，可处理 JavaScript 渲染、代理和速率限制。免费套餐每月包含 1,000 credits，无需信用卡。 ✅
+  * [flaky](https://flakyapi.dev) - 一个 mock API 服务：粘贴你的 JSON，即可模拟延迟、错误、请求失败、格式错误的响应等 API 问题。不使用 key 时每天可发起 1,000 次请求，使用免费 key 则每天可发起 10,000 次请求。不提供付费套餐。 ✅
   * [Formfeed](https://formfeed.dev) - 通过简单 API 或 Zapier、Make 等自动化工具，从 JSON 生成 PDF 和图片的 API。免费计划每月包含 100 次 PDF 转换。 ❓
   * [FraudLabs Pro](https://www.fraudlabspro.com) - 筛查订单交易中的信用卡支付欺诈。该 REST API 会根据订单的输入参数检测所有可能的欺诈特征。免费的 Micro 套餐每月 500 笔交易。 ✅
   * [FreeIPAPI](https://freeipapi.com) - 面向商业与非商业用户的免费、快速、可靠的 IP 地理位置定位 API，以 JSON 格式提供。 ✅
@@ -984,7 +985,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [Verifalia](https://verifalia.com/email-verification-api) - 实时邮箱验证 API，支持邮箱存在性确认和一次性邮箱地址检测；每天 25 次免费邮箱验证。 ✅
   * [verimail.io](https://verimail.io/) - 批量及 API 邮箱验证服务。每月 100 次免费验证。 ✅
   * [Waitlio](https://waitlio.com/) - 面向产品发布的候补名单（waitlist）管理软件。可创建品牌化候补名单页面，收集并验证邮箱订阅者，通过标签和数据分析管理注册用户。免费计划包含每月 100 名订阅者、1 个候补名单以及 API 访问权限。 ✅
-  * [Wraps](https://wraps.dev) - 邮件自动化工作流，免费提供 5k 跟踪事件和无限联系人。 ❓
+  * [Wraps](https://wraps.dev) - 部署在你自己的 AWS 账户（SES）中的邮件基础设施，附带仪表盘。发送费用直接付给 AWS。免费计划覆盖 1 个 AWS 账户，域名和联系人数量不限。 🟡
   * [ZeroSMTP](https://github.com/msgwing/ZeroSMTP) - 基于 msgwing.com 域名的免费 SMTP 中继，每天最多 200 封邮件，无付费套餐。只能从共享的 @msgwing.com 地址发信（不支持自定义域名）。提供 15 种语言的即用代码示例，以及 Windows Server/Linux/网络打印机配置指南。 ❓
 
 **[⬆️ 返回顶部](#table-of-contents)**
@@ -1694,7 +1695,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [ApiFlash](https://apiflash.com) - 基于 AWS Lambda 和 Chrome 的截图 API。支持整页截图、捕获计时信息与视口尺寸。 ✅
   * [microlink.io](https://microlink.io/) - 它可将任意网站转化为数据，例如 metatags 规范化、美观的链接预览、网页抓取能力，或截图即服务。每天 50 次请求免费，天天可用。 ✅
   * [PhantomJsCloud](https://PhantomJsCloud.com) - 浏览器自动化与页面渲染。免费层每天最多 500 个页面。免费层自 2017 年起提供。 ✅
-  * [Renderwolf](https://ironfang.uk/renderwolf) - 总部位于英国的截图、PDF、图片、二维码及片段渲染 API，提供可复用模板和签名 URL。每月 250 次免费渲染，开始使用无需填写支付信息。 ✅
+  * [Ironfang Render](https://ironfang.uk/render) - 总部位于英国的截图、PDF、图片、二维码及片段渲染 API，提供可复用模板和签名 URL。每月 250 次免费渲染，开始使用无需填写支付信息。 ✅
   * [screenshotbase.com](https://screenshotbase.com) - 每月 300 次免费截图。可对任意 URL 进行截图。快速、免费且可扩展。 ✅
   * [screenshotlayer.com](https://screenshotlayer.com/) - 对任意网站进行高度可定制的快照捕获。每月免费 100 次快照。 ✅
   * [screenshotmachine.com](https://www.screenshotmachine.com/) - 每月免费截取 100 张快照，支持 png、gif 和 jpg 格式，可截取完整长页面，不限于首页。 ✅

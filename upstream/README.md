@@ -267,6 +267,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo
   * [Financial Data](https://financialdata.net/) - Stock market and financial data API. Free plan allows 300 requests per day.
   * [finlight](https://finlight.me) - Real-time financial news API with entity resolution (tickers, ISIN) and sentiment tagging, available over REST, WebSocket, webhooks and an MCP server. Free tier: 5,000 requests/month on both REST and MCP, 12-hour delayed articles, no card required.
   * [Firecrawl](https://www.firecrawl.dev/) - API that crawls websites and converts them into clean, LLM-ready markdown or structured data, handling JavaScript rendering, proxies, and rate limits. The free plan includes 1,000 credits per month with no credit card required.
+  * [flaky](https://flakyapi.dev) - A mock API where you can paste your JSON and simulate API problems like delays, errors, failed requests, and malformed responses. 1,000 requests per day without a key, or 10,000 requests per day with a free key. There is no paid tier.
   * [Formfeed](https://formfeed.dev) - API for PDF and image generation from JSON with a simple API or automation tools like Zapier & Make. The free plan includes 100 free PDF conversions per month.
   * [FraudLabs Pro](https://www.fraudlabspro.com) - Screen an order transaction for credit card payment fraud. This REST API will detect all possible fraud traits based on the input parameters of an order. The Free Micro plan has 500 transactions per month.
   * [FreeIPAPI](https://freeipapi.com) - Free, Fast and Reliable IP Geolocation API for commercial and non-commercial users available in JSON
@@ -945,7 +946,7 @@ This list results from Pull Requests, reviews, ideas, and work done by 1600+ peo
   * [Verifalia](https://verifalia.com/email-verification-api) - Real-time email verification API with mailbox confirmation and disposable email address detector; 25 free email verifications/day.
   * [verimail.io](https://verimail.io/) - Bulk and API email verification service. 100 free verifications/month
   * [Waitlio](https://waitlio.com/) - Waitlist management software for product launches. Create branded waitlist pages, collect and verify email subscribers, manage signups with tags and analytics. Free plan includes 100 subscribers/month, 1 waitlist, and API access.
-  * [Wraps](https://wraps.dev) - email automation workflows, 5k tracked events and unlimited contacts free.
+  * [Wraps](https://wraps.dev) - Email infrastructure deployed to your own AWS account (SES), with a dashboard. Pay AWS directly for sending. Free plan covers 1 AWS account, unlimited domains and contacts.
   * [ZeroSMTP](https://github.com/msgwing/ZeroSMTP) - Free SMTP relay on the msgwing.com domain, up to 200 emails/day, no paid tier. Sends from a shared @msgwing.com address only (no custom domain). Ready-to-run code examples in 15 languages plus Windows Server/Linux/network printer setup guides.
 
 **[⬆️ Back to Top](#table-of-contents)**
@@ -1627,7 +1628,7 @@ Update Time, five active automations, webhooks.
   * [ApiFlash](https://apiflash.com) - A screenshot API based on Aws Lambda and Chrome. Handles full page, captures timing, and viewport dimensions.
   * [microlink.io](https://microlink.io/) - It turns any website into data such as metatags normalization, beauty link previews, scraping capabilities, or screenshots as a service. 50 requests/day every day free.
   * [PhantomJsCloud](https://PhantomJsCloud.com) - Browser automation and page rendering.  Free Tier offers up to 500 pages/day.  Free Tier since 2017.
-  * [Renderwolf](https://ironfang.uk/renderwolf) - UK-based screenshot, PDF, image, QR code and clip rendering API with reusable templates and signed URLs. 250 free renders a month with no payment details needed to get started.
+  * [Ironfang Render](https://ironfang.uk/render) - UK-based screenshot, PDF, image, QR code and clip rendering API with reusable templates and signed URLs. 250 free renders a month with no payment details needed to get started.
   * [screenshotbase.com](https://screenshotbase.com) - 300 free screenshots / month. Take screenshots from any url. Fast, free & scalable.
   * [screenshotlayer.com](https://screenshotlayer.com/) - Capture highly customizable snapshots of any website. Free 100 snapshots/month
   * [screenshotmachine.com](https://www.screenshotmachine.com/) - Capture 100 snapshots/month, png, gif and jpg, including full-length captures, not only home page

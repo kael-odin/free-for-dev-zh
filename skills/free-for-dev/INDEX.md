@@ -1,6 +1,6 @@
 # free-for.dev 分类索引
 
-> 数据日期：2026-09-24 · 共 1304 条服务、57 个分类
+> 数据日期：2026-09-25 · 共 1305 条服务、57 个分类
 > 在线版：https://kael-odin.github.io/free-for-dev-zh/
 
 按用户需求定位分类，再读 `data/by-category/<文件>`（每个文件含该分类全部条目）。
@@ -11,7 +11,7 @@
 | [major-cloud-providers.md](major-cloud-providers) | 主要云服务提供商 | 73 | 大厂云的永久免费额度（GCP/AWS/Azure/Oracle/IBM），白嫖云服务器（如 Oracle 免费虚拟机）、对象存储、Serverless 先看这 |
 | [cloud-management-solutions.md](cloud-management-solutions) | 云管理解决方案 | 7 | 多云管理与成本面板 |
 | [source-code-repos.md](source-code-repos) | 源代码仓库 | 12 | 代码托管、私有仓库 |
-| [apis-data-and-ml.md](apis-data-and-ml) | API、数据与机器学习 | 136 | 各类公共 API、数据集、机器学习服务 |
+| [apis-data-and-ml.md](apis-data-and-ml) | API、数据与机器学习 | 137 | 各类公共 API、数据集、机器学习服务 |
 | [artifact-repos.md](artifact-repos) | 制品仓库 | 6 | 制品库：npm/Docker 镜像/二进制托管 |
 | [tools-for-teams-and-collaboration.md](tools-for-teams-and-collaboration) | 团队与协作工具 | 79 | 团队协作与沟通工具 |
 | [cms.md](cms) | CMS | 12 | 内容管理/无头 CMS，做内容站用 |
