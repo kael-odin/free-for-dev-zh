@@ -1,4 +1,4 @@
-# 分析、事件与统计（35 条服务）
+# 分析、事件与统计（36 条服务）
 
 
   * [amplitude.com](https://amplitude.com/) - 每月 100 万事件，最多 2 个应用 ❓
@@ -30,6 +30,7 @@
   * [Rybbit](https://rybbit.io) - 开源且不使用 Cookie 的 Google Analytics 替代品，易用性号称提升 10 倍。免费套餐每月 3,000 个事件。 ✅
   * [Seline](https://seline.so) - Seline 是一款简洁且注重隐私的网站与产品分析工具。无 Cookie、轻量、独立运营。免费套餐每月包含 3,000 个事件，并可使用全部功能，例如仪表盘、用户旅程、漏斗等。 ❓
   * [StatCounter](https://statcounter.com/) - 网站访客分析服务。免费计划可分析最近 500 位访客的数据。 ✅
+  * [Stats4U](https://www.stats4u.net/) - 自 2006 年起由波兰运营的访客计数器与网站统计服务。网站站长选择计数器样式后复制代码并粘贴到自己的网站即可使用，无需注册账号。完全免费，无付费套餐。隐私优先：Stats4U 不设置 cookies，计数器数据在运营者位于欧盟的自有服务器上处理。 ❓
   * [Statsig](https://statsig.com) - 集分析、feature flag 与 A/B 测试于一体的平台。每月最多 1m 个计量事件免费。 ✅
   * [TraceLog](https://tracelog.io/) - 面向电商的 AI 分析服务。用自然语言就你的分析数据提问，获取可执行的建议，并借助 AI 驱动的洞察提升收入。每月最多 10k 事件免费。 ❓
   * [Trackingplan](https://www.trackingplan.com/) - 自动检测数字分析、营销数据与像素（pixel）方面的问题，维护始终最新的 tracking plan，并促进无缝协作。可将其部署到有真实流量的生产环境，或无需编写代码即可为回归测试添加分析覆盖。 ❓

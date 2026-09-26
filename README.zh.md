@@ -3,7 +3,7 @@
 > [!IMPORTANT]
 > **署名与免责声明**：本清单翻译自 [ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)（[free-for.dev](https://free-for.dev/)）。原始清单由原作者与 1600+ 贡献者编纂维护，版权归原作者所有；原仓库未声明开源许可证，本项目仅为便于中文读者查阅的非商业翻译镜像，如版权方有异议将按要求处理。本站与所列服务无任何关联，免费档信息以各官方页面为准，随时可能变动。
 
-**上游同步**：2026-09-25T01:33:02.949Z · 上游版本 `4197e303b0d3` · 每日自动同步
+**上游同步**：2026-09-26T01:33:02.960Z · 上游版本 `a9b09e0c8169` · 每日自动同步
 
 **「大陆可用性」标注**由 AI 辅助生成，仅供参考，欢迎提 PR 修正（编辑 `data/overrides.json`）：
 
@@ -361,6 +361,7 @@
   * [Treblle](https://www.treblle.com) - Treblle 帮助团队构建、发布和治理 API，提供高级的 API 日志聚合、可观测性、文档与调试功能。所有功能均可免费使用，但免费套餐每月请求量上限为 250k 次。 ❓
   * [Trophy](https://trophy.so) - Trophy 是面向消费级应用的游戏化层。使用预构建的 API 和开源 UI 组件，即可上线成就、连续打卡、积分、排行榜等功能。月活跃用户不超过 1,000 人免费。 ✅
   * [UniRateAPI](https://unirateapi.com) - 提供 590 多种货币及加密货币的实时汇率。免费计划不限制 API 调用次数，适合开发者和金融类应用。 ✅
+  * [URLpipe](https://urlpipe.dev) - Read any page after its JavaScript runs: Markdown, screenshots, metadata, console errors and Lighthouse audits. Free 1000 credits per month. ❓
   * [vatcheckapi.com](https://vatcheckapi.com) - 简单免费的 VAT 号码验证 API。每月 150 次免费验证。 ✅
   * [vatnode](https://vatnode.dev) - 欧盟 VAT 号码验证 REST API，支持 VIES 及各国税务登记库回退查询，并返回官方 VIES 咨询编号以备审计记录。免费额度为每月 100 次验证，无需信用卡。 ✅
   * [WeatherXu](https://weatherxu.com/) - 通过 API 提供全球天气数据，包括实时天气、逐小时与逐日预报以及天气预警。整合 AI 模型与 ML 系统分析并融合多个气象模型，以提升预报准确度。免费额度包含每月 10,000 次 API 调用。 ✅
@@ -1046,6 +1047,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [HeyForm.net](https://heyform.net/) - 拖拽式在线表单构建器。免费层可创建不限数量的表单并收集不限量的提交。附带预置模板、反垃圾功能和 100MB 文件存储。 ✅
   * [Jotform.com](https://jotform.com/) - 免费创建在线表单，收集提交内容、接受付款、自动化工作流，并使用内置电子签名功能签署文档。免费套餐包含 5 个表单、每月 100 次提交、10 份电子签名文档、10 次付款提交等。 ✅
   * [Kwes.io](https://kwes.io/) - 功能丰富的表单 endpoint，非常适合静态网站使用。免费套餐包含最多 1 个网站，每月最多 50 次提交。 ✅
+  * [Lucid Forms](https://lucidforms.co/) - 为网站提供的表单端点服务。无需自建后端，即可为任何 HTML、JS 框架或 no-code 站点添加可用的联系表单。免费套餐包含每月 250 次提交、邮件通知、智能垃圾信息过滤以及 Google Sheets 集成。 ✅
   * [Makeform](https://www.makeform.ai/) - 基于对话的表单构建工具。免费版支持不限数量的表单和提交。99% 的功能免费，包括添加 Logo、条件逻辑、文件上传、支付、集成和 webhook。Pro 计划（$19/月）可移除 Makeform 品牌标识、使用自定义域名和团队功能。Business 计划（$59/月）提供 RBAC、邮箱验证和单点登录（SSO）。 ❓
   * [Pageclip](https://pageclip.co/) - 免费计划支持 1 个站点、1 个表单，每月 1,000 次提交。 ✅
   * [SimplePDF.eu](https://simplepdf.eu/embed) - 在网站上嵌入 PDF 编辑器，将任意 PDF 转换为可填写的表单。免费计划支持不限数量的 PDF，每个 PDF 可提交 3 次。 ❓
@@ -1601,6 +1603,7 @@ Rust、Java（Maven 和 Gradle）、.NET、Go、Elm、Docker、Terraform、Git �
   * [Rybbit](https://rybbit.io) - 开源且不使用 Cookie 的 Google Analytics 替代品，易用性号称提升 10 倍。免费套餐每月 3,000 个事件。 ✅
   * [Seline](https://seline.so) - Seline 是一款简洁且注重隐私的网站与产品分析工具。无 Cookie、轻量、独立运营。免费套餐每月包含 3,000 个事件，并可使用全部功能，例如仪表盘、用户旅程、漏斗等。 ❓
   * [StatCounter](https://statcounter.com/) - 网站访客分析服务。免费计划可分析最近 500 位访客的数据。 ✅
+  * [Stats4U](https://www.stats4u.net/) - 自 2006 年起由波兰运营的访客计数器与网站统计服务。网站站长选择计数器样式后复制代码并粘贴到自己的网站即可使用，无需注册账号。完全免费，无付费套餐。隐私优先：Stats4U 不设置 cookies，计数器数据在运营者位于欧盟的自有服务器上处理。 ❓
   * [Statsig](https://statsig.com) - 集分析、feature flag 与 A/B 测试于一体的平台。每月最多 1m 个计量事件免费。 ✅
   * [TraceLog](https://tracelog.io/) - 面向电商的 AI 分析服务。用自然语言就你的分析数据提问，获取可执行的建议，并借助 AI 驱动的洞察提升收入。每月最多 10k 事件免费。 ❓
   * [Trackingplan](https://www.trackingplan.com/) - 自动检测数字分析、营销数据与像素（pixel）方面的问题，维护始终最新的 tracking plan，并促进无缝协作。可将其部署到有真实流量的生产环境，或无需编写代码即可为回归测试添加分析覆盖。 ❓

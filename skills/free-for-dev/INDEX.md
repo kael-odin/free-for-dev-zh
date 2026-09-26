@@ -1,6 +1,6 @@
 # free-for.dev 分类索引
 
-> 数据日期：2026-09-25 · 共 1305 条服务、57 个分类
+> 数据日期：2026-09-26 · 共 1308 条服务、57 个分类
 > 在线版：https://kael-odin.github.io/free-for-dev-zh/
 
 按用户需求定位分类，再读 `data/by-category/<文件>`（每个文件含该分类全部条目）。
@@ -11,7 +11,7 @@
 | [major-cloud-providers.md](major-cloud-providers) | 主要云服务提供商 | 73 | 大厂云的永久免费额度（GCP/AWS/Azure/Oracle/IBM），白嫖云服务器（如 Oracle 免费虚拟机）、对象存储、Serverless 先看这 |
 | [cloud-management-solutions.md](cloud-management-solutions) | 云管理解决方案 | 7 | 多云管理与成本面板 |
 | [source-code-repos.md](source-code-repos) | 源代码仓库 | 12 | 代码托管、私有仓库 |
-| [apis-data-and-ml.md](apis-data-and-ml) | API、数据与机器学习 | 137 | 各类公共 API、数据集、机器学习服务 |
+| [apis-data-and-ml.md](apis-data-and-ml) | API、数据与机器学习 | 138 | 各类公共 API、数据集、机器学习服务 |
 | [artifact-repos.md](artifact-repos) | 制品仓库 | 6 | 制品库：npm/Docker 镜像/二进制托管 |
 | [tools-for-teams-and-collaboration.md](tools-for-teams-and-collaboration) | 团队与协作工具 | 79 | 团队协作与沟通工具 |
 | [cms.md](cms) | CMS | 12 | 内容管理/无头 CMS，做内容站用 |
@@ -34,7 +34,7 @@
 | [email.md](email) | 邮件 | 75 | 邮件发送 API、企业/自定义域名邮箱 |
 | [feature-toggles-management-platforms.md](feature-toggles-management-platforms) | 功能开关管理平台 | 8 | 功能开关/灰度发布 |
 | [font.md](font) | 字体 | 11 | 免费字体 |
-| [forms.md](forms) | 表单 | 34 | 表单创建与数据收集 |
+| [forms.md](forms) | 表单 | 35 | 表单创建与数据收集 |
 | [generative-ai.md](generative-ai) | 生成式 AI | 21 | 生成式 AI/LLM 的免费额度与 API |
 | [cdn-and-protection.md](cdn-and-protection) | CDN 与防护 | 17 | CDN、防攻击、WAF |
 | [paas.md](paas) | PaaS | 24 | 应用托管部署（Vercel/Netlify 类，前端和小服务最常用） |
@@ -52,7 +52,7 @@
 | [data-visualization-on-maps.md](data-visualization-on-maps) | 地图数据可视化 | 22 | 地图与地理数据可视化 |
 | [package-build-system.md](package-build-system) | 包构建系统 | 3 | 包构建系统 |
 | [ide-and-code-editing.md](ide-and-code-editing) | IDE 与代码编辑 | 40 | 云 IDE、代码编辑器 |
-| [analytics-events-and-statistics.md](analytics-events-and-statistics) | 分析、事件与统计 | 35 | 网站统计、事件分析（GA 替代品在这） |
+| [analytics-events-and-statistics.md](analytics-events-and-statistics) | 分析、事件与统计 | 36 | 网站统计、事件分析（GA 替代品在这） |
 | [visitor-session-recording.md](visitor-session-recording) | 访客会话录制 | 10 | 用户会话录制与回放 |
 | [international-mobile-number-verification-api-and-sdk.md](international-mobile-number-verification-api-and-sdk) | 国际手机号码验证 API 与 SDK | 2 | 国际手机号验证 |
 | [payment-and-billing-integration.md](payment-and-billing-integration) | 支付与账单集成 | 16 | 支付与计费集成 |

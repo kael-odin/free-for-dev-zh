@@ -1,4 +1,4 @@
-# API、数据与机器学习（137 条服务）
+# API、数据与机器学习（138 条服务）
 
 
   * [Abstract API](https://www.abstractapi.com) - 面向多种用例的 API 套件，包括 IP 地理定位、电话号码验证和邮箱验证等。 ✅
@@ -123,6 +123,7 @@
   * [Treblle](https://www.treblle.com) - Treblle 帮助团队构建、发布和治理 API，提供高级的 API 日志聚合、可观测性、文档与调试功能。所有功能均可免费使用，但免费套餐每月请求量上限为 250k 次。 ❓
   * [Trophy](https://trophy.so) - Trophy 是面向消费级应用的游戏化层。使用预构建的 API 和开源 UI 组件，即可上线成就、连续打卡、积分、排行榜等功能。月活跃用户不超过 1,000 人免费。 ✅
   * [UniRateAPI](https://unirateapi.com) - 提供 590 多种货币及加密货币的实时汇率。免费计划不限制 API 调用次数，适合开发者和金融类应用。 ✅
+  * [URLpipe](https://urlpipe.dev) - Read any page after its JavaScript runs: Markdown, screenshots, metadata, console errors and Lighthouse audits. Free 1000 credits per month. ❓
   * [vatcheckapi.com](https://vatcheckapi.com) - 简单免费的 VAT 号码验证 API。每月 150 次免费验证。 ✅
   * [vatnode](https://vatnode.dev) - 欧盟 VAT 号码验证 REST API，支持 VIES 及各国税务登记库回退查询，并返回官方 VIES 咨询编号以备审计记录。免费额度为每月 100 次验证，无需信用卡。 ✅
   * [WeatherXu](https://weatherxu.com/) - 通过 API 提供全球天气数据，包括实时天气、逐小时与逐日预报以及天气预警。整合 AI 模型与 ML 系统分析并融合多个气象模型，以提升预报准确度。免费额度包含每月 10,000 次 API 调用。 ✅

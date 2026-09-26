@@ -1,4 +1,4 @@
-# 表单（34 条服务）
+# 表单（35 条服务）
 
 
   * [FabForm](https://fabform.io/) - 面向智能开发者的表单后端平台。免费计划每月允许 250 次表单提交。提供友好现代的 GUI。可与 Google Sheets、Airtable、Slack、Email 等服务集成。 ❓
@@ -22,6 +22,7 @@
   * [HeyForm.net](https://heyform.net/) - 拖拽式在线表单构建器。免费层可创建不限数量的表单并收集不限量的提交。附带预置模板、反垃圾功能和 100MB 文件存储。 ✅
   * [Jotform.com](https://jotform.com/) - 免费创建在线表单，收集提交内容、接受付款、自动化工作流，并使用内置电子签名功能签署文档。免费套餐包含 5 个表单、每月 100 次提交、10 份电子签名文档、10 次付款提交等。 ✅
   * [Kwes.io](https://kwes.io/) - 功能丰富的表单 endpoint，非常适合静态网站使用。免费套餐包含最多 1 个网站，每月最多 50 次提交。 ✅
+  * [Lucid Forms](https://lucidforms.co/) - 为网站提供的表单端点服务。无需自建后端，即可为任何 HTML、JS 框架或 no-code 站点添加可用的联系表单。免费套餐包含每月 250 次提交、邮件通知、智能垃圾信息过滤以及 Google Sheets 集成。 ✅
   * [Makeform](https://www.makeform.ai/) - 基于对话的表单构建工具。免费版支持不限数量的表单和提交。99% 的功能免费，包括添加 Logo、条件逻辑、文件上传、支付、集成和 webhook。Pro 计划（$19/月）可移除 Makeform 品牌标识、使用自定义域名和团队功能。Business 计划（$59/月）提供 RBAC、邮箱验证和单点登录（SSO）。 ❓
   * [Pageclip](https://pageclip.co/) - 免费计划支持 1 个站点、1 个表单，每月 1,000 次提交。 ✅
   * [SimplePDF.eu](https://simplepdf.eu/embed) - 在网站上嵌入 PDF 编辑器，将任意 PDF 转换为可填写的表单。免费计划支持不限数量的 PDF，每个 PDF 可提交 3 次。 ❓
