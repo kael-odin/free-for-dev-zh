@@ -1,4 +1,4 @@
-# API、数据与机器学习（138 条服务）
+# API、数据与机器学习（139 条服务）
 
 
   * [Abstract API](https://www.abstractapi.com) - 面向多种用例的 API 套件，包括 IP 地理定位、电话号码验证和邮箱验证等。 ✅
@@ -7,7 +7,7 @@
   * [Apify](https://www.apify.com/) - 网页抓取与自动化平台，可为任意网站创建 API 并提取数据。提供现成的爬虫、集成代理和定制方案。免费计划每月赠送 $5 平台额度。 ✅
   * [APITemplate.io](https://apitemplate.io) - 通过简单的 API 或 Zapier、Airtable 等自动化工具自动生成图片和 PDF 文档，无需 CSS/HTML。免费计划包含每月 50 张图片和 3 个模板。 ✅
   * [APIVerve](https://apiverve.com) - 可免费即时使用 120+ 个 API，注重质量、一致性与可靠性。免费套餐每月最多 50 个 API Token。（2025-06-25 时可能已下线） ❓
-  * [Arize AI](https://arize.com/) - 机器学习可观测性服务，用于模型监控与根因分析，可排查数据质量和性能漂移等问题。免费额度支持最多两个模型。 ✅
+  * [Arize AI](https://arize.com/) - AI 可观测性与评估平台，帮助团队理解、评估并持续改进 AI agent 与应用。免费计划包含不限用户数与评估次数、每月 25k spans 与 1GB 数据摄入、15 天数据保留，以及 Signal（每月 10 个 issue）。无需信用卡。也可通过开源的 Arize Phoenix 自托管。 🟡
   * [Beeceptor](https://beeceptor.com) - 无代码的云端平台，用于 Mock 和调试多协议 API（REST、SOAP、gRPC 与 GraphQL），提供即时可用的服务器，支持基于规则的逻辑、CRUD 与有状态 Mock、代理转发以及 CORS 管理，加快集成与测试。免费计划每天包含 50 次请求，并提供公开的 dashboard/endpoint，任何拿到 dashboard URL 的人都可以查看提交的请求和响应。 ✅
   * [BigDataCloud](https://www.bigdatacloud.com/) - 为现代 Web 提供快速、准确且免费的 API（不限量或每月最多 10K-50K 次），涵盖 IP 地理定位、逆地理编码、网络洞察、邮箱与手机号验证、客户端信息等。 ✅
   * [Brave Search API](https://brave.com/search/api/) - 独立的 Web、新闻、图片、视频搜索及 AI/LLM 上下文 API，适合 RAG 流水线和 AI agent。免费层每月包含 $5 额度（需信用卡验证）。 🟡
@@ -118,12 +118,13 @@
   * [Tavily AI](https://tavily.com/) - 用于在线搜索的 API，可快速获得洞察并进行全面研究，还支持对研究结果进行整理。Free 层级每月 1,000 次请求，无需信用卡。 ✅
   * [TemplateFox](https://pdftemplateapi.com) - PDF 生成 API，提供可视化模板编辑器、动态数据合并，以及 7 种语言的 SDK。免费计划包含每月 60 份 PDF 和 3 个模板。 ❓
   * [The IP API](https://theipapi.com/) - IP 地理定位 API，每天提供 1,000 次免费请求。提供 IP 地址的位置信息，包括国家、城市、地区等。 ✅
+  * [timezone.io](https://www.timezone.io/docs/worldtimeapi) - 提供任意时区或 IP 地址的当前时间、UTC 偏移量与夏令时（DST）信息，兼容已停运的 WorldTimeAPI（客户端只需更换主机地址）。免费，无需 API key 或注册，每 IP 每分钟 60 次请求，支持 HTTPS 或纯 HTTP。 ❓
   * [TinyMCE](https://www.tiny.cloud) - 富文本编辑 API。核心功能可免费无限量使用。 ✅
   * [Tomorrow.io Weather API](https://www.tomorrow.io/weather-api/) - 提供免费计划的天气 API。提供准确且最新的全球天气预报，以及历史数据和天气监测方案。 ✅
   * [Treblle](https://www.treblle.com) - Treblle 帮助团队构建、发布和治理 API，提供高级的 API 日志聚合、可观测性、文档与调试功能。所有功能均可免费使用，但免费套餐每月请求量上限为 250k 次。 ❓
   * [Trophy](https://trophy.so) - Trophy 是面向消费级应用的游戏化层。使用预构建的 API 和开源 UI 组件，即可上线成就、连续打卡、积分、排行榜等功能。月活跃用户不超过 1,000 人免费。 ✅
   * [UniRateAPI](https://unirateapi.com) - 提供 590 多种货币及加密货币的实时汇率。免费计划不限制 API 调用次数，适合开发者和金融类应用。 ✅
-  * [URLpipe](https://urlpipe.dev) - Read any page after its JavaScript runs: Markdown, screenshots, metadata, console errors and Lighthouse audits. Free 1000 credits per month. ❓
+  * [URLpipe](https://urlpipe.dev) - 在页面 JavaScript 执行完成后读取任意页面：返回 Markdown、截图、元数据、控制台错误以及 Lighthouse 审计结果。每月免费 1000 credits。 ❓
   * [vatcheckapi.com](https://vatcheckapi.com) - 简单免费的 VAT 号码验证 API。每月 150 次免费验证。 ✅
   * [vatnode](https://vatnode.dev) - 欧盟 VAT 号码验证 REST API，支持 VIES 及各国税务登记库回退查询，并返回官方 VIES 咨询编号以备审计记录。免费额度为每月 100 次验证，无需信用卡。 ✅
   * [WeatherXu](https://weatherxu.com/) - 通过 API 提供全球天气数据，包括实时天气、逐小时与逐日预报以及天气预警。整合 AI 模型与 ML 系统分析并融合多个气象模型，以提升预报准确度。免费额度包含每月 10,000 次 API 调用。 ✅

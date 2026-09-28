@@ -1,6 +1,6 @@
 # free-for.dev 分类索引
 
-> 数据日期：2026-09-26 · 共 1308 条服务、57 个分类
+> 数据日期：2026-09-28 · 共 1311 条服务、57 个分类
 > 在线版：https://kael-odin.github.io/free-for-dev-zh/
 
 按用户需求定位分类，再读 `data/by-category/<文件>`（每个文件含该分类全部条目）。
@@ -11,7 +11,7 @@
 | [major-cloud-providers.md](major-cloud-providers) | 主要云服务提供商 | 73 | 大厂云的永久免费额度（GCP/AWS/Azure/Oracle/IBM），白嫖云服务器（如 Oracle 免费虚拟机）、对象存储、Serverless 先看这 |
 | [cloud-management-solutions.md](cloud-management-solutions) | 云管理解决方案 | 7 | 多云管理与成本面板 |
 | [source-code-repos.md](source-code-repos) | 源代码仓库 | 12 | 代码托管、私有仓库 |
-| [apis-data-and-ml.md](apis-data-and-ml) | API、数据与机器学习 | 138 | 各类公共 API、数据集、机器学习服务 |
+| [apis-data-and-ml.md](apis-data-and-ml) | API、数据与机器学习 | 139 | 各类公共 API、数据集、机器学习服务 |
 | [artifact-repos.md](artifact-repos) | 制品仓库 | 6 | 制品库：npm/Docker 镜像/二进制托管 |
 | [tools-for-teams-and-collaboration.md](tools-for-teams-and-collaboration) | 团队与协作工具 | 79 | 团队协作与沟通工具 |
 | [cms.md](cms) | CMS | 12 | 内容管理/无头 CMS，做内容站用 |
@@ -37,14 +37,14 @@
 | [forms.md](forms) | 表单 | 35 | 表单创建与数据收集 |
 | [generative-ai.md](generative-ai) | 生成式 AI | 21 | 生成式 AI/LLM 的免费额度与 API |
 | [cdn-and-protection.md](cdn-and-protection) | CDN 与防护 | 17 | CDN、防攻击、WAF |
-| [paas.md](paas) | PaaS | 24 | 应用托管部署（Vercel/Netlify 类，前端和小服务最常用） |
+| [paas.md](paas) | PaaS | 25 | 应用托管部署（Vercel/Netlify 类，前端和小服务最常用） |
 | [baas.md](baas) | BaaS | 21 | 后端全家桶：数据库+鉴权+存储+实时（小项目后端零成本） |
 | [low-code-platform.md](low-code-platform) | 低代码平台 | 10 | 低代码开发平台 |
 | [web-hosting.md](web-hosting) | 虚拟主机 | 26 | 静态/传统网站托管 |
 | [dns.md](dns) | DNS | 22 | DNS 托管、DDNS |
 | [domain.md](domain) | 域名 | 4 | 免费域名与子域名 |
 | [iaas.md](iaas) | IaaS | 4 | 存储型基础设施：对象存储、IPFS/去中心化存储（要免费云服务器看 major-cloud-providers） |
-| [managed-data-services.md](managed-data-services) | 托管数据服务 | 25 | 托管数据库：Postgres/MySQL/Mongo/Redis |
+| [managed-data-services.md](managed-data-services) | 托管数据服务 | 26 | 托管数据库：Postgres/MySQL/Mongo/Redis |
 | [tunneling-webrtc-web-socket-servers-and-other-routers.md](tunneling-webrtc-web-socket-servers-and-other-routers) | 隧道、WebRTC、Web Socket 服务器及其他路由器 | 17 | 内网穿透、隧道、WebRTC |
 | [issue-tracking-and-project-management.md](issue-tracking-and-project-management) | 问题跟踪与项目管理 | 60 | 项目管理与 issue 跟踪 |
 | [storage-and-media-processing.md](storage-and-media-processing) | 存储与媒体处理 | 50 | 对象存储、图片/视频处理 |

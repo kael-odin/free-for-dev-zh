@@ -7000,6 +7000,36 @@
    "kind": "entry",
    "zh": "自 2006 年起由波兰运营的访客计数器与网站统计服务。网站站长选择计数器样式后复制代码并粘贴到自己的网站即可使用，无需注册账号。完全免费，无付费套餐。隐私优先：Stats4U 不设置 cookies，计数器数据在运营者位于欧盟的自有服务器上处理。",
    "access": "unknown"
+  },
+  "7eed53d850e07409": {
+   "kind": "entry",
+   "zh": "AI 可观测性与评估平台，帮助团队理解、评估并持续改进 AI agent 与应用。免费计划包含不限用户数与评估次数、每月 25k spans 与 1GB 数据摄入、15 天数据保留，以及 Signal（每月 10 个 issue）。无需信用卡。也可通过开源的 Arize Phoenix 自托管。",
+   "access": "partial"
+  },
+  "736c1f394a1f2f27": {
+   "kind": "entry",
+   "zh": "提供任意时区或 IP 地址的当前时间、UTC 偏移量与夏令时（DST）信息，兼容已停运的 WorldTimeAPI（客户端只需更换主机地址）。免费，无需 API key 或注册，每 IP 每分钟 60 次请求，支持 HTTPS 或纯 HTTP。",
+   "access": "unknown"
+  },
+  "d82ffccd03498a70": {
+   "kind": "entry",
+   "zh": "面向 AI 工程师与 PM 的 AI 工程平台，可用于评估和观测 AI 应用与 agent，内置 Alyx agent。免费版包含不限用户数与 evals 次数、25k spans、每月 10 个免费 Signals（持续运行的 SRE agent，用于发现并修复生产环境问题）、每月 1GB 数据摄入量。可通过开源的 Arize Phoenix 自托管。",
+   "access": "direct"
+  },
+  "df06b6c0f41a7ddb": {
+   "kind": "entry",
+   "zh": "为你的 Supabase 应用提供一条回头路。ReviveDB 为你的数据库和 Auth、Storage 文件、Edge Functions 以及受支持的项目配置保存恢复点，并且只有当数据库从某个备份中恢复并比对无误后，才会将该备份标记为就绪。免费计划覆盖一个项目，提供每周备份和三个恢复点。",
+   "access": "unknown"
+  },
+  "b50fb8428998b4a5": {
+   "kind": "entry",
+   "zh": "托管在 AWS 上的 Docker 容器或 GitHub 仓库。免费额度：最多 4 个容器，每月 100 运行小时，每天 10 次部署。空闲 15 分钟后休眠，收到下一个请求时唤醒。无需信用卡。",
+   "access": "direct"
+  },
+  "591b7c63f97f2e2a": {
+   "kind": "entry",
+   "zh": "在页面 JavaScript 执行完成后读取任意页面：返回 Markdown、截图、元数据、控制台错误以及 Lighthouse 审计结果。每月免费 1000 credits。",
+   "access": "unknown"
   }
  }
 }

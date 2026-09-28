@@ -1,4 +1,4 @@
-# 托管数据服务（25 条服务）
+# 托管数据服务（26 条服务）
 
 
   * [8base.com](https://www.8base.com/) - 8base 是面向 JavaScript 开发者的全栈低代码开发平台，基于 MySQL、GraphQL 与 serverless 后端即服务（BaaS）构建。可通过 UI 应用构建器快速开始搭建 Web 应用并快速扩展。免费层包含：数据行数 2,500、存储 500、Serverless 计算 1Gb/h、客户端应用用户 5。 ❓
@@ -20,6 +20,7 @@
   * [Prisma Postgres](https://prisma.io/postgres) - 基于 unikernel 构建、运行在裸金属服务器上的超高速托管 Postgres，500MB 总存储空间，5 个数据库，与 Prisma ORM 集成。 🟡
   * [Qdrant](https://qdrant.tech/) - 用于存储嵌入数据的向量数据库，单节点集群，配备 0.5 vCPU、1GB 内存和 4GB 磁盘。 🟡
   * [restdb.io](https://restdb.io/) - 快捷易用的 NoSQL 云数据库服务。通过 restdb.io 可以获得 schema、关联关系、自动生成的 REST API（支持类 MongoDB 查询），以及高效的多用户数据管理界面。免费计划支持 3 个用户、2500 条记录和每秒 1 次 API 请求。 ✅
+  * [ReviveDB](https://revivedb.dev/) - 为你的 Supabase 应用提供一条回头路。ReviveDB 为你的数据库和 Auth、Storage 文件、Edge Functions 以及受支持的项目配置保存恢复点，并且只有当数据库从某个备份中恢复并比对无误后，才会将该备份标记为就绪。免费计划覆盖一个项目，提供每周备份和三个恢复点。 ❓
   * [SeaTable](https://seatable.io/) - 由 Seafile 团队打造的灵活的类电子表格数据库。表格数量不限，2,000 行，1 个月版本历史，最多 25 名团队成员。 ✅
   * [skyvia.com](https://skyvia.com/) - 云数据平台提供免费层，beta 期间所有计划完全免费。 🟡
   * [StackBy](https://stackby.com/) - 一个兼具电子表格的灵活性与数据库的强大能力、并与常用业务应用内置集成的工具。免费计划包含不限用户数、10 个 stack，以及每个 stack 2GB 附件空间。 ✅

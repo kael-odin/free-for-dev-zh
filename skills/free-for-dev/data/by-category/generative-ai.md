@@ -1,7 +1,7 @@
 # 生成式 AI（21 条服务）
 
 
-  * [Arize AX](https://arize.com) - 面向 AI 工程师/产品经理的 AI 工程平台，借助内置的 Alyx agent 对 AI 应用与 agent 进行评估和观测。免费版包含每月 25k spans 及 1gb 的数据摄取量。 ❓
+  * [Arize AX](https://arize.com) - 面向 AI 工程师与 PM 的 AI 工程平台，可用于评估和观测 AI 应用与 agent，内置 Alyx agent。免费版包含不限用户数与 evals 次数、25k spans、每月 10 个免费 Signals（持续运行的 SRE agent，用于发现并修复生产环境问题）、每月 1GB 数据摄入量。可通过开源的 Arize Phoenix 自托管。 ✅
   * [Audio Enhancer](https://voice-clone.org/tools/audio-enhancer) - 基于 AI 的音频增强 SaaS，可去除噪声与回声，同时保留自然清晰的人声。完全免费：一键增强不限次数，无需登录，支持 MP3/WAV/FLAC。 🟡
   * [Braintrust](https://www.braintrustdata.com/) - 面向 Gen AI 的 Evals、prompt playground 与数据管理。免费计划每周提供最多 1,000 条私有 eval 数据行。 🟡
   * [Clair](https://askclair.ai/) - Clinical AI Reference。学生可免费使用其专业工具套件，包含 Open Search、Clinical Summary、Med Review、Drug Interactions、ICD-10 Codes 和 Stewardship。另提供专业套件的免费试用。 ✅

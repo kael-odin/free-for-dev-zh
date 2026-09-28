@@ -1,4 +1,4 @@
-# PaaS（24 条服务）
+# PaaS（25 条服务）
 
 
   * [ampt.dev](https://getampt.com/) - Ampt 让团队无需复杂配置或基础设施管理，即可在 AWS 上构建、部署和扩展 JavaScript 应用。免费 Preview 计划包含每小时 500 次调用、每天 2,500 次调用和每月 50,000 次调用。自定义域名仅在付费计划中提供。 🟡
@@ -22,6 +22,7 @@
   * [pipedream.com](https://pipedream.com) - 为开发者打造的集成平台。可基于任意触发器构建任意工作流。工作流即代码，可[免费运行](https://docs.pipedream.com/pricing/)。无需管理任何服务器或云资源。 ✅
   * [pythonanywhere.com](https://www.pythonanywhere.com/) - 云端 Python 应用托管。Beginner（入门）账户免费，提供 1 个 Python web 应用，域名为 your-username.pythonanywhere.com，512 MB 私有文件存储，以及 1 个 MySQL 数据库 ✅
   * [Runsite](https://runsite.app/) - 欧洲 PaaS，支持从 GitHub 自动部署 Web 服务或静态站点（免费 1 个 Web 实例，0.1 vCPU/256 MB），提供托管的 PostgreSQL 与 Valkey(Redis)（免费 30 天）、Transactional Email（每月免费 3,000 封）、S3 兼容存储（免费 5 GB），启动网站所需一应俱全。服务器位于德国。 ✅
+  * [SnapDeploy](https://snapdeploy.dev/) - 托管在 AWS 上的 Docker 容器或 GitHub 仓库。免费额度：最多 4 个容器，每月 100 运行小时，每天 10 次部署。空闲 15 分钟后休眠，收到下一个请求时唤醒。无需信用卡。 ✅
   * [Val Town](https://www.val.town) - 面向脚本、HTTP 端点和 cron 定时任务的协作式 TypeScript/JavaScript serverless 平台。免费计划包含不限量的公开 vals、最短 15 分钟的 cron 间隔、每次运行 1 分钟的实际执行时长（wall-clock）上限，以及 3 天的日志保留。免费版不支持自定义域名。 ✅
   * [WunderGraph](https://cloud.wundergraph.com) - 开源平台，帮助你快速构建、发布和管理现代 API。内置 CI/CD、GitHub 集成和自动 HTTPS。[免费计划](https://wundergraph.com/pricing)提供最多 3 个项目、1GB 出站流量和每月 300 分钟构建时间。 ✅
   * [YepCode](https://yepcode.io) - 在 serverless 环境中连接各类 API 与服务的一体化平台。既拥有 NoCode 工具的敏捷与优势，又具备使用编程语言的全部能力。免费额度包含 [1.000 yeps](https://yepcode.io/pricing/)。 ✅
